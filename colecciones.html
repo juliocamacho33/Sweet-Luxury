@@ -4,18 +4,18 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Colecciones | Sweet Luxury</title>
-<meta name="description" content="Colecciones Esencial, Selecta y Exclusiva de esmeraldas colombianas. Filtra por nivel, precio, quilates y origen.">
+<meta name="description" content="Colecciones Clásica, Premium y Exclusiva de esmeraldas colombianas. Filtra por nivel, precio, quilates y origen.">
 <link rel="canonical" href="https://www.sweetluxury.co/colecciones.html">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Sweet Luxury">
 <meta property="og:locale" content="es_CO">
 <meta property="og:title" content="Colecciones | Sweet Luxury">
-<meta property="og:description" content="Colecciones Esencial, Selecta y Exclusiva de esmeraldas colombianas. Filtra por nivel, precio, quilates y origen.">
+<meta property="og:description" content="Colecciones Clásica, Premium y Exclusiva de esmeraldas colombianas. Filtra por nivel, precio, quilates y origen.">
 <meta property="og:url" content="https://www.sweetluxury.co/colecciones.html">
 <meta property="og:image" content="https://www.sweetluxury.co/assets/img/logo.png">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Colecciones | Sweet Luxury">
-<meta name="twitter:description" content="Colecciones Esencial, Selecta y Exclusiva de esmeraldas colombianas. Filtra por nivel, precio, quilates y origen.">
+<meta name="twitter:description" content="Colecciones Clásica, Premium y Exclusiva de esmeraldas colombianas. Filtra por nivel, precio, quilates y origen.">
 <meta name="twitter:image" content="https://www.sweetluxury.co/assets/img/logo.png">
 <script>
 (function(){
@@ -101,19 +101,19 @@
 <section class="page-header">
   <div class="container">
     <span class="eyebrow" data-i18n="nav_collections">Colecciones</span>
-    <h1 style="font-size:clamp(2.2rem,4vw,3.2rem);" data-i18n="coll_h1">Esencial, Selecta y Exclusiva</h1>
+    <h1 style="font-size:clamp(2.2rem,4vw,3.2rem);" data-i18n="coll_h1">Clásica, Premium y Exclusiva</h1>
     <p data-i18n="coll_desc">Cada piedra indica quilates, medidas, origen y tratamiento. Filtra por nivel, precio o quilates para encontrar la esmeralda correcta.</p>
 
     <div class="levels-strip">
       <div class="level-card" data-reveal="up">
-        <h3 data-i18n-word="Esencial">Esencial</h3>
+        <h3 data-i18n-word="Clásica">Clásica</h3>
         <p data-i18n="lvl1_p">Piedras de entrada, ideales para primera compra o piezas sencillas.</p>
-        <span class="range" data-price-from="400000">Desde $400.000 COP</span>
+        <span class="range" data-price-upto="2000000">Hasta $2.000.000 COP</span>
       </div>
       <div class="level-card" data-reveal="up">
-        <h3 data-i18n-word="Selecta">Selecta</h3>
+        <h3 data-i18n-word="Premium">Premium</h3>
         <p data-i18n="lvl2_p">Mayor tamaño y calidad de cristal, para joyería de uso frecuente.</p>
-        <span class="range" data-price-range="1000000|4000000">$1.000.000 – $4.000.000 COP</span>
+        <span class="range" data-price-range="2000000|10000000">$2.000.000 – $10.000.000 COP</span>
       </div>
       <div class="level-card" data-reveal="up">
         <h3 data-i18n-word="Exclusiva">Exclusiva</h3>
@@ -132,8 +132,8 @@
         <label for="f-nivel" data-i18n="filter_level_label">Nivel</label>
         <select id="f-nivel">
           <option value="" data-i18n="filter_all_m">Todos</option>
-          <option value="Esencial" data-i18n-word="Esencial">Esencial</option>
-          <option value="Selecta" data-i18n-word="Selecta">Selecta</option>
+          <option value="Clásica" data-i18n-word="Clásica">Clásica</option>
+          <option value="Premium" data-i18n-word="Premium">Premium</option>
           <option value="Exclusiva" data-i18n-word="Exclusiva">Exclusiva</option>
         </select>
       </div>
@@ -142,9 +142,9 @@
         <select id="f-precio">
           <option value="" data-i18n="filter_price_none">Sin límite</option>
           <option value="800000" data-price-upto="800000">Hasta $800.000 COP</option>
-          <option value="1500000" data-price-upto="1500000">Hasta $1.500.000 COP</option>
-          <option value="3000000" data-price-upto="3000000">Hasta $3.000.000 COP</option>
-          <option value="12000000" data-price-upto="12000000">Hasta $12.000.000 COP</option>
+          <option value="2000000" data-price-upto="2000000">Hasta $2.000.000 COP</option>
+          <option value="5000000" data-price-upto="5000000">Hasta $5.000.000 COP</option>
+          <option value="10000000" data-price-upto="10000000">Hasta $10.000.000 COP</option>
         </select>
       </div>
       <div class="filter-group">
@@ -172,6 +172,12 @@
         </select>
       </div>
       <div class="filter-group">
+        <label for="f-tratamiento" data-i18n="filter_treatment_label">Tratamiento</label>
+        <select id="f-tratamiento">
+          <option value="" data-i18n="filter_all_m">Todos</option>
+        </select>
+      </div>
+      <div class="filter-group">
         <label for="f-orden" data-i18n="filter_sort_label">Ordenar por</label>
         <select id="f-orden">
           <option value="" data-i18n="filter_sort_relevance">Relevancia</option>
@@ -179,6 +185,7 @@
           <option value="precio-desc" data-i18n="filter_sort_price_desc">Precio: mayor a menor</option>
           <option value="ct-asc" data-i18n="filter_sort_ct_asc">Quilates: menor a mayor</option>
           <option value="ct-desc" data-i18n="filter_sort_ct_desc">Quilates: mayor a menor</option>
+          <option value="valor" data-i18n="filter_sort_value">Mejor precio por quilate</option>
         </select>
       </div>
       <button class="filter-fav-toggle" id="f-fav-toggle">&#9825; <span data-i18n="filter_fav_toggle">Solo favoritos</span></button>
@@ -191,6 +198,22 @@
 
     <p class="catalog-note"><span class="info-dot">i</span> <span data-i18n="note1">Cada piedra es única e irrepetible: no hay dos iguales. Certificado gemológico disponible bajo pedido (costo adicional) — pregúntanos por WhatsApp.</span></p>
     <p class="catalog-note"><span class="info-dot">i</span> <span data-i18n="note2">La mina solo está identificada en algunas piezas por ahora; el resto figura como "sin especificar" hasta confirmarla.</span></p>
+
+    <p class="catalog-note value-range-note" id="value-range-note"></p>
+
+    <div class="value-chart-toggle-wrap">
+      <button type="button" class="value-chart-toggle" id="chart-toggle"><span data-i18n="chart_toggle_show">Ver grafico de valor</span></button>
+    </div>
+    <div class="value-chart-wrap" id="chart-wrap" style="display:none;">
+      <h2 class="value-chart-title" data-i18n="chart_title">Quilates vs. precio de todo el catalogo</h2>
+      <div id="chart-svg-container"></div>
+      <p class="chart-hint" data-i18n="chart_hint">Toca un punto para ver la pieza</p>
+    </div>
+
+    <div class="recent-strip" id="recent-strip" style="display:none;">
+      <span class="recent-strip-title" id="recent-strip-title"></span>
+      <div class="recent-strip-list" id="recent-strip-list"></div>
+    </div>
 
     <p class="results-count" id="results-count"></p>
 
@@ -250,12 +273,28 @@
         <div><dt data-i18n="modal_label_origin">Origen</dt><dd id="modal-origen"></dd></div>
         <div id="modal-mina-row"><dt data-i18n="modal_label_mine">Mina</dt><dd id="modal-mina"></dd></div>
         <div><dt data-i18n="modal_label_treatment">Tratamiento</dt><dd id="modal-tratamiento"></dd></div>
+        <div><dt data-i18n="label_price_per_ct">Precio por quilate</dt><dd id="modal-ppc"></dd></div>
       </dl>
+      <p class="modal-rarity" id="modal-rarity" style="display:none;"></p>
       <span class="price" id="modal-price"></span>
       <a class="btn-whatsapp" id="modal-whatsapp" href="#" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.29-1.39a9.9 9.9 0 0 0 4.75 1.21h.01c5.46 0 9.9-4.45 9.9-9.91C21.96 6.45 17.5 2 12.04 2zm0 18.08h-.01a8.2 8.2 0 0 1-4.18-1.15l-.3-.18-3.14.82.84-3.06-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.55 3.7-8.25 8.26-8.25 2.2 0 4.27.86 5.83 2.42a8.18 8.18 0 0 1 2.41 5.84c0 4.55-3.71 8.25-8.25 8.25zm4.53-6.18c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.13-.17.25-.64.81-.78.97-.14.17-.29.19-.53.06-.25-.12-1.04-.38-1.99-1.22-.73-.66-1.23-1.46-1.37-1.71-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.16-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.36-.77-1.86-.2-.48-.41-.42-.56-.43-.14-.01-.31-.01-.48-.01-.17 0-.43.06-.66.31-.23.25-.86.85-.86 2.06 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.24 3.74.59.26 1.06.41 1.42.52.6.19 1.14.16 1.57.1.48-.07 1.47-.6 1.68-1.19.21-.58.21-1.08.14-1.19-.06-.1-.23-.16-.48-.28z"/></svg>
         <span data-i18n="modal_whatsapp_cta">Preguntar por esta pieza</span>
       </a>
+      <div class="modal-actions-row">
+        <button type="button" class="modal-secondary-btn" id="modal-share">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="10.6" x2="15.4" y2="6.4"/><line x1="8.6" y1="13.4" x2="15.4" y2="17.6"/></svg>
+          <span data-i18n="share_piece_label">Compartir</span>
+        </button>
+        <button type="button" class="modal-secondary-btn" id="modal-download-sheet">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3v12"/><path d="M7 10l5 5 5-5"/><path d="M5 20h14"/></svg>
+          <span data-i18n="download_sheet_btn">Descargar ficha tecnica</span>
+        </button>
+      </div>
+    </div>
+    <div class="modal-similar" id="modal-similar">
+      <span class="modal-similar-title" data-i18n="similar_pieces_title">Tambien te puede interesar</span>
+      <div class="modal-similar-list" id="modal-similar-list"></div>
     </div>
   </div>
 </div>
@@ -283,69 +322,69 @@
    ese dato por piedra, agregar el campo "mina" a cada objeto de abajo. */
 
 const PIECES = [
-  { id: "cuadrada-362", nombre: "Cuadrada 3.62 ct", ct: 3.62, precio: 400000, nivel: "Esencial", origen: "Colombia", mina: "no especificada", tratamiento: "perma",
+  { id: "cuadrada-362", nombre: "Cuadrada 3.62 ct", ct: 3.62, precio: 400000, nivel: "Clásica", origen: "Colombia", mina: "no especificada", tratamiento: "perma",
     img: "https://imgproxy.treinta.co/sig/size:900:::/quality:85/plain/https%3A%2F%2Fcdn.treinta.co%2Fnew-products%2Fproducts%2F78e96f64-42a3-51fd-8411-9360020530a8%2Fc036dcdd-5d70-5f34-accb-c8ea475ba1a8.jpg" },
-  { id: "briolette-069", nombre: "Briolette 0.69 ct", ct: 0.69, precio: 690000, nivel: "Esencial", origen: "Colombia", mina: "no especificada", tratamiento: "aceite",
+  { id: "briolette-069", nombre: "Briolette 0.69 ct", ct: 0.69, precio: 690000, nivel: "Clásica", origen: "Colombia", mina: "no especificada", tratamiento: "aceite",
     img: "https://imgproxy.treinta.co/sig/size:900:::/quality:85/plain/https%3A%2F%2Fcdn.treinta.co%2Fnew-products%2Fproducts%2F78e96f64-42a3-51fd-8411-9360020530a8%2F01ed0b76-068b-5ba2-aef3-47e300bb1059.jpg" },
-  { id: "cabujon-737", nombre: "Cabujón 7.37 ct", ct: 7.37, precio: 750000, nivel: "Esencial", origen: "Colombia", mina: "no especificada", tratamiento: "perma",
+  { id: "cabujon-737", nombre: "Cabujón 7.37 ct", ct: 7.37, precio: 750000, nivel: "Clásica", origen: "Colombia", mina: "no especificada", tratamiento: "perma",
     img: "https://imgproxy.treinta.co/sig/size:900:::/quality:85/plain/https%3A%2F%2Fcdn.treinta.co%2Fnew-products%2Fproducts%2F78e96f64-42a3-51fd-8411-9360020530a8%2Fa30512b5-c3b2-5295-b4a8-6d4a7dbf2023.jpg" },
-  { id: "canutillo-370", nombre: "Canutillo 3.70 ct", ct: 3.70, precio: 1000000, nivel: "Selecta", origen: "Colombia", mina: "no especificada", tratamiento: "aceite",
+  { id: "canutillo-370", nombre: "Canutillo 3.70 ct", ct: 3.70, precio: 1000000, nivel: "Clásica", origen: "Colombia", mina: "no especificada", tratamiento: "aceite",
     img: "https://imgproxy.treinta.co/sig/size:900:::/quality:85/plain/https%3A%2F%2Fcdn.treinta.co%2Fnew-products%2Fproducts%2F78e96f64-42a3-51fd-8411-9360020530a8%2F1428f119-75bb-581e-a9f2-4130a74997f9.jpg" },
-  { id: "canutillo-583", nombre: "Canutillo 5.83 ct", ct: 5.83, precio: 1000000, nivel: "Selecta", origen: "Colombia", mina: "no especificada", tratamiento: "aceite",
+  { id: "canutillo-583", nombre: "Canutillo 5.83 ct", ct: 5.83, precio: 1000000, nivel: "Clásica", origen: "Colombia", mina: "no especificada", tratamiento: "aceite",
     img: "https://imgproxy.treinta.co/sig/size:900:::/quality:85/plain/https%3A%2F%2Fcdn.treinta.co%2Fnew-products%2Fproducts%2F78e96f64-42a3-51fd-8411-9360020530a8%2F0af951a0-f2e3-5ceb-a8bc-d66a5846b5f5.jpg" },
-  { id: "canutillo-481", nombre: "Canutillo 4.81 ct", ct: 4.81, precio: 1200000, nivel: "Selecta", origen: "Colombia", mina: "no especificada", tratamiento: "sin tratamiento",
+  { id: "canutillo-481", nombre: "Canutillo 4.81 ct", ct: 4.81, precio: 1200000, nivel: "Clásica", origen: "Colombia", mina: "no especificada", tratamiento: "sin tratamiento",
     img: "https://imgproxy.treinta.co/sig/size:900:::/quality:85/plain/https%3A%2F%2Fcdn.treinta.co%2Fnew-products%2Fproducts%2F78e96f64-42a3-51fd-8411-9360020530a8%2F52e1e48d-e502-5bb4-8176-79074cb08f28.jpg" },
-  { id: "canutillo-206", nombre: "Canutillo 2.06 ct", ct: 2.06, precio: 1300000, nivel: "Selecta", origen: "Colombia", mina: "no especificada", tratamiento: "sin tratamiento",
+  { id: "canutillo-206", nombre: "Canutillo 2.06 ct", ct: 2.06, precio: 1300000, nivel: "Clásica", origen: "Colombia", mina: "no especificada", tratamiento: "sin tratamiento",
     img: "https://imgproxy.treinta.co/sig/size:900:::/quality:85/plain/https%3A%2F%2Fcdn.treinta.co%2Fnew-products%2Fproducts%2F78e96f64-42a3-51fd-8411-9360020530a8%2Fd7cf9f16-8a14-5edc-9200-6df53647c4ab.jpg" },
-  { id: "canutillo-236", nombre: "Canutillo 2.36 ct", ct: 2.36, precio: 1300000, nivel: "Selecta", origen: "Colombia", mina: "no especificada", tratamiento: "sin tratamiento",
+  { id: "canutillo-236", nombre: "Canutillo 2.36 ct", ct: 2.36, precio: 1300000, nivel: "Clásica", origen: "Colombia", mina: "no especificada", tratamiento: "sin tratamiento",
     img: "https://imgproxy.treinta.co/sig/size:900:::/quality:85/plain/https%3A%2F%2Fcdn.treinta.co%2Fnew-products%2Fproducts%2F78e96f64-42a3-51fd-8411-9360020530a8%2Fa2e9b017-5a91-53e3-9850-f008f2954c74.jpg" },
-  { id: "canutillo-390", nombre: "Canutillo 3.90 ct", ct: 3.90, precio: 2000000, nivel: "Selecta", origen: "Colombia", mina: "no especificada", tratamiento: "no especificado",
+  { id: "canutillo-390", nombre: "Canutillo 3.90 ct", ct: 3.90, precio: 2000000, nivel: "Premium", origen: "Colombia", mina: "no especificada", tratamiento: "no especificado",
     img: "https://imgproxy.treinta.co/sig/size:900:::/quality:85/plain/https%3A%2F%2Fcdn.treinta.co%2Fnew-products%2Fproducts%2F78e96f64-42a3-51fd-8411-9360020530a8%2Ff7b0df8a-9e85-5d7f-adeb-2c58fcd7d5ad.jpg" },
-  { id: "canutillo-405", nombre: "Canutillo 4.05 ct", ct: 4.05, precio: 2500000, nivel: "Selecta", origen: "Colombia", mina: "no especificada", tratamiento: "sin tratamiento",
+  { id: "canutillo-405", nombre: "Canutillo 4.05 ct", ct: 4.05, precio: 2500000, nivel: "Premium", origen: "Colombia", mina: "no especificada", tratamiento: "sin tratamiento",
     img: "https://imgproxy.treinta.co/sig/size:900:::/quality:85/plain/https%3A%2F%2Fcdn.treinta.co%2Fnew-products%2Fproducts%2F78e96f64-42a3-51fd-8411-9360020530a8%2Fa9d32096-ae54-50ff-999b-22d757b36d0a.jpg" },
   { id: "cuadrada-495", nombre: "Cuadrada 4.95 ct", ct: 4.95, precio: 10000000, nivel: "Exclusiva", origen: "Brasil", mina: "no especificada", tratamiento: "aceite",
     img: "https://imgproxy.treinta.co/sig/size:900:::/quality:85/plain/https%3A%2F%2Fcdn.treinta.co%2Fnew-products%2Fproducts%2F78e96f64-42a3-51fd-8411-9360020530a8%2F63348b97-dca3-590e-845c-0096eaf96b5b.jpg" },
-  { id: "gangas-1445", nombre: "Gangas 14.45 gr", ct: 14.45, precio: 400000, nivel: "Esencial", origen: "Colombia", mina: "no especificada", tratamiento: "no especificado",
+  { id: "gangas-1445", nombre: "Gangas 14.45 gr", ct: 14.45, precio: 400000, nivel: "Clásica", origen: "Colombia", mina: "no especificada", tratamiento: "no especificado",
     img: "https://imgproxy.treinta.co/sig/size:900:::/quality:85/plain/https%3A%2F%2Fcdn.treinta.co%2Fnew-products%2Fproducts%2F78e96f64-42a3-51fd-8411-9360020530a8%2Fe4bc1f10-d99d-5fbd-83cc-784171ba6989.jpg" },
-  { id: "trapiche-134", nombre: "Trapiche 1.34 ct", ct: 1.34, precio: 500000, nivel: "Esencial", origen: "Colombia", mina: "no especificada", tratamiento: "aceite y perma",
+  { id: "trapiche-134", nombre: "Trapiche 1.34 ct", ct: 1.34, precio: 500000, nivel: "Clásica", origen: "Colombia", mina: "no especificada", tratamiento: "aceite y perma",
     img: "https://imgproxy.treinta.co/sig/size:900:::/quality:85/plain/https%3A%2F%2Fcdn.treinta.co%2Fnew-products%2Fproducts%2F78e96f64-42a3-51fd-8411-9360020530a8%2Fef559f9a-a603-5a86-8232-d276d7e14d88.jpg" },
-  { id: "ganga-387", nombre: "Ganga 3.87 gr", ct: 3.87, precio: 700000, nivel: "Esencial", origen: "Colombia", mina: "no especificada", tratamiento: "no especificado",
+  { id: "ganga-387", nombre: "Ganga 3.87 gr", ct: 3.87, precio: 700000, nivel: "Clásica", origen: "Colombia", mina: "no especificada", tratamiento: "no especificado",
     img: "https://imgproxy.treinta.co/sig/size:900:::/quality:85/plain/https%3A%2F%2Fcdn.treinta.co%2Fnew-products%2Fproducts%2F78e96f64-42a3-51fd-8411-9360020530a8%2Fb8e647ec-e4d5-5999-8922-ca505df95ea2.jpg" },
-  { id: "ganga-454", nombre: "Ganga 4.54 ct", ct: 4.54, precio: 700000, nivel: "Esencial", origen: "Colombia", mina: "no especificada", tratamiento: "no especificado",
+  { id: "ganga-454", nombre: "Ganga 4.54 ct", ct: 4.54, precio: 700000, nivel: "Clásica", origen: "Colombia", mina: "no especificada", tratamiento: "no especificado",
     img: "https://imgproxy.treinta.co/sig/size:900:::/quality:85/plain/https%3A%2F%2Fcdn.treinta.co%2Fnew-products%2Fproducts%2F78e96f64-42a3-51fd-8411-9360020530a8%2F9501482a-f21e-511e-88b1-0f2a93bf7994.jpg" },
-  { id: "ganga-484", nombre: "Ganga 4.84 gr", ct: 4.84, precio: 800000, nivel: "Esencial", origen: "Colombia", mina: "no especificada", tratamiento: "no especificado",
+  { id: "ganga-484", nombre: "Ganga 4.84 gr", ct: 4.84, precio: 800000, nivel: "Clásica", origen: "Colombia", mina: "no especificada", tratamiento: "no especificado",
     img: "https://imgproxy.treinta.co/sig/size:900:::/quality:85/plain/https%3A%2F%2Fcdn.treinta.co%2Fnew-products%2Fproducts%2F78e96f64-42a3-51fd-8411-9360020530a8%2F370ef428-e5b3-5138-bc4e-24bb1c8a3133.jpg" },
-  { id: "redonda-274", nombre: "Redonda 2.74 ct", ct: 2.74, precio: 800000, nivel: "Esencial", origen: "Colombia", mina: "no especificada", tratamiento: "aceite y perma",
+  { id: "redonda-274", nombre: "Redonda 2.74 ct", ct: 2.74, precio: 800000, nivel: "Clásica", origen: "Colombia", mina: "no especificada", tratamiento: "aceite y perma",
     img: "https://imgproxy.treinta.co/sig/size:900:::/quality:85/plain/https%3A%2F%2Fcdn.treinta.co%2Fnew-products%2Fproducts%2F78e96f64-42a3-51fd-8411-9360020530a8%2F33c153a7-6b7e-5d32-89f7-37466a82c2dc.jpg" },
-  { id: "lote-canutillos-499", nombre: "Lote de Canutillos 4.99 ct", ct: 4.99, precio: 1000000, nivel: "Selecta", origen: "Colombia", mina: "no especificada", tratamiento: "aceite",
+  { id: "lote-canutillos-499", nombre: "Lote de Canutillos 4.99 ct", ct: 4.99, precio: 1000000, nivel: "Clásica", origen: "Colombia", mina: "no especificada", tratamiento: "aceite",
     img: "https://imgproxy.treinta.co/sig/size:900:::/quality:85/plain/https%3A%2F%2Fcdn.treinta.co%2Fnew-products%2Fproducts%2F78e96f64-42a3-51fd-8411-9360020530a8%2F2212162b-49c4-51f8-9bb5-fe13218ad4db.jpg" },
-  { id: "rectangular-190", nombre: "Rectangular 1.90 ct", ct: 1.90, precio: 1500000, nivel: "Selecta", origen: "Colombia", mina: "no especificada", tratamiento: "perma",
+  { id: "rectangular-190", nombre: "Rectangular 1.90 ct", ct: 1.90, precio: 1500000, nivel: "Clásica", origen: "Colombia", mina: "no especificada", tratamiento: "perma",
     img: "https://imgproxy.treinta.co/sig/size:900:::/quality:85/plain/https%3A%2F%2Fcdn.treinta.co%2Fnew-products%2Fproducts%2F78e96f64-42a3-51fd-8411-9360020530a8%2F38457f15-874b-5e1a-8596-6f613fed273e.jpg" },
-  { id: "ovalo-092", nombre: "Óvalo 0.92 ct", ct: 0.92, precio: 1500000, nivel: "Selecta", origen: "Colombia", mina: "no especificada", tratamiento: "aceite",
+  { id: "ovalo-092", nombre: "Óvalo 0.92 ct", ct: 0.92, precio: 1500000, nivel: "Clásica", origen: "Colombia", mina: "no especificada", tratamiento: "aceite",
     img: "https://imgproxy.treinta.co/sig/size:900:::/quality:85/plain/https%3A%2F%2Fcdn.treinta.co%2Fnew-products%2Fproducts%2F78e96f64-42a3-51fd-8411-9360020530a8%2Fb6b2050a-6197-5469-8d6e-abe2a59400f5.jpg" },
-  { id: "lote-trapiches-982", nombre: "Lote de Trapiches 9.82 ct", ct: 9.82, precio: 1800000, nivel: "Selecta", origen: "Colombia", mina: "no especificada", tratamiento: "aceite",
+  { id: "lote-trapiches-982", nombre: "Lote de Trapiches 9.82 ct", ct: 9.82, precio: 1800000, nivel: "Clásica", origen: "Colombia", mina: "no especificada", tratamiento: "aceite",
     img: "https://imgproxy.treinta.co/sig/size:900:::/quality:85/plain/https%3A%2F%2Fcdn.treinta.co%2Fnew-products%2Fproducts%2F78e96f64-42a3-51fd-8411-9360020530a8%2F0abb4e6a-024e-557e-8d13-7ea6a15e1ece.jpg" },
-  { id: "trapiche-282", nombre: "Trapiche 2.82 ct", ct: 2.82, precio: 2000000, nivel: "Selecta", origen: "Colombia", mina: "no especificada", tratamiento: "aceite y perma",
+  { id: "trapiche-282", nombre: "Trapiche 2.82 ct", ct: 2.82, precio: 2000000, nivel: "Premium", origen: "Colombia", mina: "no especificada", tratamiento: "aceite y perma",
     img: "https://imgproxy.treinta.co/sig/size:900:::/quality:85/plain/https%3A%2F%2Fcdn.treinta.co%2Fnew-products%2Fproducts%2F78e96f64-42a3-51fd-8411-9360020530a8%2F39f800b5-3ed8-5ef5-bf85-c2ecfdce3e6c.jpg" },
-  { id: "macla-26", nombre: "Macla 26 ct", ct: 26, precio: 2000000, nivel: "Selecta", origen: "Colombia", mina: "Chivor", tratamiento: "sin tratamiento",
+  { id: "macla-26", nombre: "Macla 26 ct", ct: 26, precio: 2000000, nivel: "Premium", origen: "Colombia", mina: "Chivor", tratamiento: "sin tratamiento",
     img: "https://imgproxy.treinta.co/sig/size:900:::/quality:85/plain/https%3A%2F%2Fcdn.treinta.co%2Fnew-products%2Fproducts%2F78e96f64-42a3-51fd-8411-9360020530a8%2F3d1643c7-2e68-5fb8-997d-434f50486dbd.jpg" },
-  { id: "ovalo-2", nombre: "Óvalo 2 ct", ct: 2, precio: 2000000, nivel: "Selecta", origen: "Colombia", mina: "no especificada", tratamiento: "aceite",
+  { id: "ovalo-2", nombre: "Óvalo 2 ct", ct: 2, precio: 2000000, nivel: "Premium", origen: "Colombia", mina: "no especificada", tratamiento: "aceite",
     img: "https://imgproxy.treinta.co/sig/size:900:::/quality:85/plain/https%3A%2F%2Fcdn.treinta.co%2Fnew-products%2Fproducts%2F78e96f64-42a3-51fd-8411-9360020530a8%2Fb988a1bb-bc8a-5380-a91b-d3c001cb1b2e.jpg" },
-  { id: "ganga-2527", nombre: "Ganga 25.27 gr", ct: 25.27, precio: 2000000, nivel: "Selecta", origen: "Colombia", mina: "no especificada", tratamiento: "sin tratamiento",
+  { id: "ganga-2527", nombre: "Ganga 25.27 gr", ct: 25.27, precio: 2000000, nivel: "Premium", origen: "Colombia", mina: "no especificada", tratamiento: "sin tratamiento",
     img: "https://imgproxy.treinta.co/sig/size:900:::/quality:85/plain/https%3A%2F%2Fcdn.treinta.co%2Fnew-products%2Fproducts%2F78e96f64-42a3-51fd-8411-9360020530a8%2Fd765ab7b-31c2-5b8a-8347-2d5b927b0c59.jpg" },
-  { id: "macla-1417", nombre: "Macla 14.17 ct", ct: 14.17, precio: 3000000, nivel: "Selecta", origen: "Colombia", mina: "Coscuez", tratamiento: "sin tratamiento",
+  { id: "macla-1417", nombre: "Macla 14.17 ct", ct: 14.17, precio: 3000000, nivel: "Premium", origen: "Colombia", mina: "Coscuez", tratamiento: "sin tratamiento",
     img: "https://imgproxy.treinta.co/sig/size:900:::/quality:85/plain/https%3A%2F%2Fcdn.treinta.co%2Fnew-products%2Fproducts%2F78e96f64-42a3-51fd-8411-9360020530a8%2F285aba6a-1614-546a-b571-9e707dc16271.jpg" },
-  { id: "lote-lagrimas-283", nombre: "Lote de lágrimas 2.83 ct", ct: 2.83, precio: 4000000, nivel: "Selecta", origen: "Colombia", mina: "no especificada", tratamiento: "perma",
+  { id: "lote-lagrimas-283", nombre: "Lote de lágrimas 2.83 ct", ct: 2.83, precio: 4000000, nivel: "Premium", origen: "Colombia", mina: "no especificada", tratamiento: "perma",
     img: "https://imgproxy.treinta.co/sig/size:900:::/quality:85/plain/https%3A%2F%2Fcdn.treinta.co%2Fnew-products%2Fproducts%2F78e96f64-42a3-51fd-8411-9360020530a8%2F009fc4cd-cefc-5e98-8d94-0ae3e187ce56.jpg" },
-  { id: "baguettes-140", nombre: "Baguettes 1.40 ct", ct: 1.40, precio: 1500000, nivel: "Selecta", origen: "Colombia", mina: "no especificada", tratamiento: "perma",
+  { id: "baguettes-140", nombre: "Baguettes 1.40 ct", ct: 1.40, precio: 1500000, nivel: "Clásica", origen: "Colombia", mina: "no especificada", tratamiento: "perma",
     img: "https://imgproxy.treinta.co/sig/size:900:::/quality:85/plain/https%3A%2F%2Fcdn.treinta.co%2Fnew-products%2Fproducts%2F78e96f64-42a3-51fd-8411-9360020530a8%2Fbc628f50-0e93-59a5-8923-533c483d44b8.jpg" },
-  { id: "ganga-1907", nombre: "Ganga 19.07 gr", ct: 19.07, precio: 1200000, nivel: "Selecta", origen: "Colombia", mina: "no especificada", tratamiento: "sin tratamiento",
+  { id: "ganga-1907", nombre: "Ganga 19.07 gr", ct: 19.07, precio: 1200000, nivel: "Clásica", origen: "Colombia", mina: "no especificada", tratamiento: "sin tratamiento",
     img: "https://imgproxy.treinta.co/sig/size:900:::/quality:85/plain/https%3A%2F%2Fcdn.treinta.co%2Fnew-products%2Fproducts%2F78e96f64-42a3-51fd-8411-9360020530a8%2Fdc44d9cb-18f1-5f3a-ab21-b1b6d8cce41c.jpg" },
-  { id: "ganga-422", nombre: "Ganga 4.22 gr", ct: 4.22, precio: 1500000, nivel: "Selecta", origen: "Colombia", mina: "no especificada", tratamiento: "sin tratamiento",
+  { id: "ganga-422", nombre: "Ganga 4.22 gr", ct: 4.22, precio: 1500000, nivel: "Clásica", origen: "Colombia", mina: "no especificada", tratamiento: "sin tratamiento",
     img: "https://imgproxy.treinta.co/sig/size:900:::/quality:85/plain/https%3A%2F%2Fcdn.treinta.co%2Fnew-products%2Fproducts%2F78e96f64-42a3-51fd-8411-9360020530a8%2Fd3175887-3c77-5708-ad69-0bd0157a84a1.jpg" },
-  { id: "macla-763", nombre: "Macla 7.63 ct", ct: 7.63, precio: 1200000, nivel: "Selecta", origen: "Colombia", mina: "Chivor", tratamiento: "no especificado",
+  { id: "macla-763", nombre: "Macla 7.63 ct", ct: 7.63, precio: 1200000, nivel: "Clásica", origen: "Colombia", mina: "Chivor", tratamiento: "no especificado",
     img: "https://imgproxy.treinta.co/sig/size:900:::/quality:85/plain/https%3A%2F%2Fcdn.treinta.co%2Fnew-products%2Fproducts%2F78e96f64-42a3-51fd-8411-9360020530a8%2Fc08b64e0-5951-5f53-9a72-6981121268ab.jpg" },
-  { id: "macla-998", nombre: "Macla 9.98 ct", ct: 9.98, precio: 1200000, nivel: "Selecta", origen: "Colombia", mina: "Chivor", tratamiento: "sin tratamiento",
+  { id: "macla-998", nombre: "Macla 9.98 ct", ct: 9.98, precio: 1200000, nivel: "Clásica", origen: "Colombia", mina: "Chivor", tratamiento: "sin tratamiento",
     img: "https://imgproxy.treinta.co/sig/size:900:::/quality:85/plain/https%3A%2F%2Fcdn.treinta.co%2Fnew-products%2Fproducts%2F78e96f64-42a3-51fd-8411-9360020530a8%2F5c78691c-f3ed-5db9-8d1a-9091731502fc.jpg" }
 ];
 
@@ -401,6 +440,220 @@ function trPiece(nombre){
 
 function t(key){
   return window.SLI18N ? window.SLI18N.t(key) : key;
+}
+
+/* ---------- Nuevas utilidades: precio/ct, rareza, recientes, compartir, ficha, grafico ---------- */
+
+function pricePerCt(p){
+  return p.ct > 0 ? p.precio / p.ct : 0;
+}
+
+function formatPricePerCt(p){
+  return formatCOP(Math.round(pricePerCt(p))) + ' / ct';
+}
+
+function buildValueRangeText(){
+  const niveles = ["Clásica","Premium","Exclusiva"];
+  const parts = niveles.map(function(nv){
+    const group = PIECES.filter(function(p){ return p.nivel === nv && p.ct > 0; });
+    if(group.length === 0) return null;
+    const ppcs = group.map(pricePerCt);
+    const min = Math.min.apply(null, ppcs);
+    const max = Math.max.apply(null, ppcs);
+    return tr(nv) + ': ' + formatCOP(Math.round(min)) + ' \u2013 ' + formatCOP(Math.round(max)) + ' / ct';
+  }).filter(Boolean);
+  return t('value_range_label') + ': ' + parts.join(' \u00b7 ');
+}
+
+function renderValueRange(){
+  const el = document.getElementById('value-range-note');
+  if(el) el.textContent = buildValueRangeText();
+}
+
+function rarityPercentile(p){
+  if(!p.ct || PIECES.length === 0) return null;
+  const largerOrEqual = PIECES.filter(function(x){ return x.ct >= p.ct; }).length;
+  return Math.max(1, Math.round((largerOrEqual / PIECES.length) * 100));
+}
+
+function similarPieces(p, max){
+  max = max || 3;
+  const cts = PIECES.map(function(x){ return x.ct; });
+  const precios = PIECES.map(function(x){ return x.precio; });
+  const ctRange = (Math.max.apply(null, cts) - Math.min.apply(null, cts)) || 1;
+  const precioRange = (Math.max.apply(null, precios) - Math.min.apply(null, precios)) || 1;
+  return PIECES
+    .filter(function(x){ return x.id !== p.id; })
+    .map(function(x){
+      const dCt = Math.abs(x.ct - p.ct) / ctRange;
+      const dPrecio = Math.abs(x.precio - p.precio) / precioRange;
+      return { piece: x, score: dCt + dPrecio };
+    })
+    .sort(function(a,b){ return a.score - b.score; })
+    .slice(0, max)
+    .map(function(x){ return x.piece; });
+}
+
+let RECENTS = [];
+try{ RECENTS = JSON.parse(localStorage.getItem('sl-recientes') || '[]'); }catch(e){ RECENTS = []; }
+
+function addRecent(id){
+  RECENTS = RECENTS.filter(function(x){ return x !== id; });
+  RECENTS.unshift(id);
+  RECENTS = RECENTS.slice(0, 8);
+  try{ localStorage.setItem('sl-recientes', JSON.stringify(RECENTS)); }catch(e){}
+}
+
+function renderRecents(){
+  const wrap = document.getElementById('recent-strip');
+  const list = document.getElementById('recent-strip-list');
+  const title = document.getElementById('recent-strip-title');
+  if(!wrap || !list) return;
+  const pieces = RECENTS.map(function(id){ return PIECES.find(function(p){ return p.id === id; }); }).filter(Boolean);
+  if(pieces.length === 0){
+    wrap.style.display = 'none';
+    return;
+  }
+  title.textContent = t('recently_viewed_title');
+  list.innerHTML = pieces.map(function(p){
+    return '<button type="button" class="recent-thumb" data-recent="' + p.id + '" aria-label="' + trPiece(p.nombre) + '"><img src="' + p.img + '" alt="' + trPiece(p.nombre) + '" loading="lazy"></button>';
+  }).join('');
+  list.querySelectorAll('[data-recent]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      const id = btn.dataset.recent;
+      const piece = PIECES.find(function(p){ return p.id === id; });
+      if(piece) openModal(piece);
+    });
+  });
+  wrap.style.display = '';
+}
+
+function sharePiece(p){
+  const url = 'https://www.sweetluxury.co/colecciones.html?pieza=' + p.id;
+  const shareData = { title: 'Sweet Luxury \u00b7 ' + trPiece(p.nombre), text: trPiece(p.nombre) + ' \u00b7 ' + formatCOP(p.precio), url: url };
+  if(navigator.share){
+    navigator.share(shareData).catch(function(){});
+    return;
+  }
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(url).then(function(){
+      flashShareFeedback();
+    }).catch(function(){
+      window.prompt('Copia el enlace:', url);
+    });
+  } else {
+    window.prompt('Copia el enlace:', url);
+  }
+}
+
+function flashShareFeedback(){
+  const btn = document.getElementById('modal-share');
+  if(!btn) return;
+  const span = btn.querySelector('span');
+  const original = span.textContent;
+  span.textContent = t('share_copied_msg');
+  btn.classList.add('is-confirmed');
+  setTimeout(function(){
+    span.textContent = original;
+    btn.classList.remove('is-confirmed');
+  }, 1800);
+}
+
+function fichaHtml(p){
+  const rarity = rarityPercentile(p);
+  const rarityLine = (rarity && rarity <= 30) ? ('<p class="sheet-rarity">' + t('rarity_note').replace('{pct}', rarity) + '</p>') : '';
+  return '<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8">' +
+    '<title>' + t('sheet_title_label') + ' \u00b7 ' + trPiece(p.nombre) + '</title>' +
+    '<style>' +
+    'body{font-family:Georgia,serif;color:#1a1a1a;max-width:640px;margin:40px auto;padding:0 24px;}' +
+    'h1{font-size:1.6rem;margin-bottom:4px;}' +
+    '.brand{letter-spacing:0.2em;text-transform:uppercase;font-size:0.75rem;color:#b8935f;margin-bottom:24px;display:block;}' +
+    'img{width:100%;max-height:380px;object-fit:cover;margin:18px 0;}' +
+    'table{width:100%;border-collapse:collapse;margin:18px 0;}' +
+    'td{padding:9px 0;border-bottom:1px solid #ddd6c4;font-size:0.95rem;}' +
+    'td.label{color:#55524a;width:40%;}' +
+    '.price{font-size:1.4rem;color:#8a6d1f;margin:14px 0;}' +
+    '.sheet-rarity{font-size:0.85rem;color:#55524a;}' +
+    '.note{font-size:0.78rem;color:#77725f;margin-top:26px;line-height:1.5;}' +
+    '.print-btn{margin:20px 0;padding:10px 18px;font-size:0.85rem;cursor:pointer;background:#1a1a1a;color:#faf8f3;border:none;}' +
+    '@media print{.print-btn{display:none;}}' +
+    '</style></head><body>' +
+    '<span class="brand">Sweet Luxury</span>' +
+    '<h1>' + trPiece(p.nombre) + '</h1>' +
+    '<img src="' + p.img + '" alt="' + trPiece(p.nombre) + '">' +
+    '<table>' +
+    '<tr><td class="label">' + t('modal_label_ct') + '</td><td>' + p.ct + ' ct</td></tr>' +
+    '<tr><td class="label">' + t('modal_label_origin') + '</td><td>' + tr(p.origen) + (p.mina && p.mina !== 'no especificada' ? (' \u00b7 ' + t('modal_label_mine') + ' ' + p.mina) : '') + '</td></tr>' +
+    '<tr><td class="label">' + t('modal_label_treatment') + '</td><td>' + formatTratamiento(p.tratamiento) + '</td></tr>' +
+    '<tr><td class="label">' + t('label_price_per_ct') + '</td><td>' + formatPricePerCt(p) + '</td></tr>' +
+    '</table>' +
+    '<div class="price">' + formatCOP(p.precio) + '</div>' +
+    rarityLine +
+    '<button class="print-btn" onclick="window.print()">' + t('sheet_print_btn') + '</button>' +
+    '<p class="note">' + t('sheet_footer_note') + '</p>' +
+    '</body></html>';
+}
+
+function downloadFicha(p){
+  const html = fichaHtml(p);
+  const blob = new Blob([html], { type: 'text/html' });
+  const url = URL.createObjectURL(blob);
+  window.open(url, '_blank');
+  setTimeout(function(){ URL.revokeObjectURL(url); }, 60000);
+}
+
+let chartOpen = false;
+
+function renderChart(){
+  const container = document.getElementById('chart-svg-container');
+  if(!container) return;
+  const w = 640, h = 360, pad = 46;
+  const cts = PIECES.map(function(p){ return p.ct; });
+  const precios = PIECES.map(function(p){ return p.precio; });
+  const ctMax = Math.max.apply(null, cts) * 1.05;
+  const precioMax = Math.max.apply(null, precios) * 1.08;
+  const colorFor = { "Clásica": 'var(--gold)', Premium: 'var(--emerald-accent)', Exclusiva: 'var(--emerald-deep)' };
+
+  function xPos(ct){ return pad + (ct / ctMax) * (w - pad * 1.3); }
+  function yPos(precio){ return h - pad - (precio / precioMax) * (h - pad * 1.5); }
+
+  const dots = PIECES.map(function(p){
+    return '<circle class="chart-dot" data-id="' + p.id + '" cx="' + xPos(p.ct).toFixed(1) + '" cy="' + yPos(p.precio).toFixed(1) + '" r="5.5" fill="' + (colorFor[p.nivel] || 'var(--gold)') + '"><title>' + trPiece(p.nombre) + ' \u00b7 ' + formatCOP(p.precio) + '</title></circle>';
+  }).join('');
+
+  const axisX = '<line x1="' + pad + '" y1="' + (h - pad) + '" x2="' + (w - 10) + '" y2="' + (h - pad) + '" stroke="var(--line)" stroke-width="1"/>';
+  const axisY = '<line x1="' + pad + '" y1="10" x2="' + pad + '" y2="' + (h - pad) + '" stroke="var(--line)" stroke-width="1"/>';
+  const axisLabelX = '<text x="' + (w - 10) + '" y="' + (h - pad + 30) + '" text-anchor="end" class="chart-axis-label">' + t('chart_axis_ct') + '</text>';
+  const axisLabelY = '<text x="' + pad + '" y="18" text-anchor="start" class="chart-axis-label">' + t('chart_axis_price') + '</text>';
+  const tickCt0 = '<text x="' + pad + '" y="' + (h - pad + 20) + '" class="chart-tick">0</text>';
+  const tickCtMax = '<text x="' + (w - 12) + '" y="' + (h - pad + 20) + '" text-anchor="end" class="chart-tick">' + Math.round(ctMax) + ' ct</text>';
+  const tickPriceMax = '<text x="' + (pad - 6) + '" y="16" text-anchor="end" class="chart-tick">' + formatCOP(Math.round(precioMax)) + '</text>';
+
+  container.innerHTML = '<svg viewBox="0 0 ' + w + ' ' + h + '" class="value-chart-svg">' +
+    axisX + axisY + axisLabelX + axisLabelY + tickCt0 + tickCtMax + tickPriceMax + dots +
+    '</svg>' +
+    '<div class="chart-legend">' +
+      '<span class="chart-legend-item"><i style="background:var(--gold)"></i>' + tr('Clásica') + '</span>' +
+      '<span class="chart-legend-item"><i style="background:var(--emerald-accent)"></i>' + tr('Premium') + '</span>' +
+      '<span class="chart-legend-item"><i style="background:var(--emerald-deep)"></i>' + tr('Exclusiva') + '</span>' +
+    '</div>';
+
+  container.querySelectorAll('.chart-dot').forEach(function(dot){
+    dot.addEventListener('click', function(){
+      const piece = PIECES.find(function(p){ return p.id === dot.dataset.id; });
+      if(piece) openModal(piece);
+    });
+  });
+}
+
+function toggleChart(){
+  chartOpen = !chartOpen;
+  const wrap = document.getElementById('chart-wrap');
+  const btn = document.getElementById('chart-toggle');
+  if(!wrap || !btn) return;
+  wrap.style.display = chartOpen ? '' : 'none';
+  btn.querySelector('span').textContent = chartOpen ? t('chart_toggle_hide') : t('chart_toggle_show');
+  if(chartOpen) renderChart();
 }
 
 let FAVORITES = [];
@@ -485,6 +738,8 @@ function openCompareModal(){
     return;
   }
   const pieces = COMPARE.map(id => PIECES.find(p => p.id === id));
+  const ppcs = pieces.map(pricePerCt);
+  const minPpc = Math.min.apply(null, ppcs);
   const wrap = document.getElementById('compare-table-wrap');
   wrap.innerHTML = `
     <div class="section-head" style="margin-bottom:28px;">
@@ -492,14 +747,15 @@ function openCompareModal(){
       <h2>${pieces.length} ${t('compare_modal_title_suffix')}</h2>
     </div>
     <table class="compare-table">
-      <tr><th></th>${pieces.map(p => `<td><img src="${p.img}" alt="${trPiece(p.nombre)}"><div class="compare-name">${trPiece(p.nombre)}</div></td>`).join('')}</tr>
+      <tr><th></th>${pieces.map((p,i) => `<td><img src="${p.img}" alt="${trPiece(p.nombre)}"><div class="compare-name">${trPiece(p.nombre)}</div>${ppcs[i] === minPpc ? `<span class="compare-best-badge">${t('compare_best_value')}</span>` : ''}</td>`).join('')}</tr>
       <tr><th>${t('filter_level_label')}</th>${pieces.map(p => `<td>${tr(p.nivel)}</td>`).join('')}</tr>
       <tr><th>${t('modal_label_ct')}</th>${pieces.map(p => `<td>${p.ct} ct</td>`).join('')}</tr>
       <tr><th>${t('modal_label_origin')}</th>${pieces.map(p => `<td>${tr(p.origen)}</td>`).join('')}</tr>
-      ${pieces.some(p => p.mina && p.mina !== 'no especificada') ? `<tr><th>${t('modal_label_mine')}</th>${pieces.map(p => `<td>${p.mina && p.mina !== 'no especificada' ? p.mina : '—'}</td>`).join('')}</tr>` : ''}
+      ${pieces.some(p => p.mina && p.mina !== 'no especificada') ? `<tr><th>${t('modal_label_mine')}</th>${pieces.map(p => `<td>${p.mina && p.mina !== 'no especificada' ? p.mina : '\u2014'}</td>`).join('')}</tr>` : ''}
       <tr><th>${t('modal_label_treatment')}</th>${pieces.map(p => `<td>${formatTratamiento(p.tratamiento)}</td>`).join('')}</tr>
       <tr><th>${t('label_price')}</th>${pieces.map(p => `<td class="price">${formatCOP(p.precio)}</td>`).join('')}</tr>
-      <tr><th></th>${pieces.map(p => `<td><a class="btn-whatsapp" href="https://wa.me/573102169036?text=${encodeURIComponent(t('piece_whatsapp_msg_intro') + ' ' + trPiece(p.nombre) + ' · ' + formatCOP(p.precio))}" target="_blank" rel="noopener">${t('compare_ask')}</a></td>`).join('')}</tr>
+      <tr><th>${t('label_price_per_ct')}</th>${pieces.map((p,i) => `<td class="${ppcs[i] === minPpc ? 'compare-best-cell' : ''}">${formatPricePerCt(p)}</td>`).join('')}</tr>
+      <tr><th></th>${pieces.map(p => `<td><a class="btn-whatsapp" href="https://wa.me/573102169036?text=${encodeURIComponent(t('piece_whatsapp_msg_intro') + ' ' + trPiece(p.nombre) + ' \u00b7 ' + formatCOP(p.precio))}" target="_blank" rel="noopener">${t('compare_ask')}</a></td>`).join('')}</tr>
     </table>
   `;
   document.getElementById('compare-modal').classList.add('open');
@@ -517,6 +773,8 @@ function render(){
   const ctMin = document.getElementById('f-ct').value;
   const origen = document.getElementById('f-origen').value;
   const mina = document.getElementById('f-mina').value;
+  const tratamientoEl = document.getElementById('f-tratamiento');
+  const tratamiento = tratamientoEl ? tratamientoEl.value : '';
   const orden = document.getElementById('f-orden').value;
 
   let filtered = PIECES.filter(p => {
@@ -525,6 +783,7 @@ function render(){
     if(ctMin && p.ct < Number(ctMin)) return false;
     if(origen && p.origen !== origen) return false;
     if(mina && p.mina !== mina) return false;
+    if(tratamiento && p.tratamiento !== tratamiento) return false;
     if(favOnly && !FAVORITES.includes(p.id)) return false;
     return true;
   });
@@ -533,6 +792,7 @@ function render(){
   else if(orden === 'precio-desc') filtered = filtered.slice().sort((a,b) => b.precio - a.precio);
   else if(orden === 'ct-asc') filtered = filtered.slice().sort((a,b) => a.ct - b.ct);
   else if(orden === 'ct-desc') filtered = filtered.slice().sort((a,b) => b.ct - a.ct);
+  else if(orden === 'valor') filtered = filtered.slice().sort((a,b) => pricePerCt(a) - pricePerCt(b));
 
   const grid = document.getElementById('grid');
   const empty = document.getElementById('empty');
@@ -558,11 +818,12 @@ function render(){
       <div class="piece-body">
         <h3>${trPiece(p.nombre)}</h3>
         <div class="piece-origin-row">
-          <span class="piece-origin">${tr(p.origen)}${p.mina !== 'no especificada' ? ' · ' + t('modal_label_mine') + ' ' + p.mina : ''}</span>
+          <span class="piece-origin">${tr(p.origen)}${p.mina !== 'no especificada' ? ' \u00b7 ' + t('modal_label_mine') + ' ' + p.mina : ''}</span>
           <span class="piece-unique">${t('m_unique')}</span>
         </div>
         <div class="piece-meta">
           <span class="price">${formatCOP(p.precio)}</span>
+          <span class="price-per-ct">${formatPricePerCt(p)}</span>
         </div>
         <div class="tooltip-wrap" data-no-open>
           <span class="treatment-tag">${formatTratamiento(p.tratamiento)}</span>
@@ -617,10 +878,48 @@ function openModal(p){
     minaRow.style.display = 'none';
   }
   document.getElementById('modal-tratamiento').textContent = formatTratamiento(p.tratamiento);
+  const ppcEl = document.getElementById('modal-ppc');
+  if(ppcEl) ppcEl.textContent = formatPricePerCt(p);
   document.getElementById('modal-price').textContent = formatCOP(p.precio);
+
+  const rarity = rarityPercentile(p);
+  const rarityEl = document.getElementById('modal-rarity');
+  if(rarityEl){
+    if(rarity && rarity <= 30){
+      rarityEl.textContent = t('rarity_note').replace('{pct}', rarity);
+      rarityEl.style.display = '';
+    } else {
+      rarityEl.style.display = 'none';
+    }
+  }
+
   modal.dataset.pieceId = p.id;
-  const msg = encodeURIComponent(`${t('piece_whatsapp_msg_intro')} ${trPiece(p.nombre)} · ${formatCOP(p.precio)}`);
+  const msg = encodeURIComponent(`${t('piece_whatsapp_msg_intro')} ${trPiece(p.nombre)} \u00b7 ${formatCOP(p.precio)}`);
   document.getElementById('modal-whatsapp').href = `https://wa.me/573102169036?text=${msg}`;
+
+  const simList = document.getElementById('modal-similar-list');
+  const simWrap = document.getElementById('modal-similar');
+  if(simList && simWrap){
+    const sims = similarPieces(p, 3);
+    simList.innerHTML = sims.map(function(sp){
+      return '<button type="button" class="modal-similar-item" data-id="' + sp.id + '">' +
+        '<img src="' + sp.img + '" alt="' + trPiece(sp.nombre) + '" loading="lazy">' +
+        '<span class="modal-similar-name">' + trPiece(sp.nombre) + '</span>' +
+        '<span class="modal-similar-price">' + formatCOP(sp.precio) + '</span>' +
+        '</button>';
+    }).join('');
+    simList.querySelectorAll('[data-id]').forEach(function(btn){
+      btn.addEventListener('click', function(){
+        const sp = PIECES.find(function(x){ return x.id === btn.dataset.id; });
+        if(sp) openModal(sp);
+      });
+    });
+    simWrap.style.display = sims.length ? '' : 'none';
+  }
+
+  addRecent(p.id);
+  renderRecents();
+
   modal.classList.add('open');
   document.body.style.overflow = 'hidden';
 }
@@ -653,13 +952,47 @@ function populateMinaFilter(){
   group.style.display = '';
 }
 
+function populateTratamientoFilter(){
+  const select = document.getElementById('f-tratamiento');
+  if(!select) return;
+  const tratamientos = Array.from(new Set(PIECES.map(p => p.tratamiento))).sort();
+  tratamientos.forEach(function(tKey){
+    const opt = document.createElement('option');
+    opt.value = tKey;
+    opt.textContent = formatTratamiento(tKey);
+    opt.dataset.tratamientoKey = tKey;
+    select.appendChild(opt);
+  });
+}
+
+function refreshTratamientoFilterLabels(){
+  const select = document.getElementById('f-tratamiento');
+  if(!select) return;
+  Array.from(select.options).forEach(function(opt){
+    if(opt.dataset.tratamientoKey){
+      opt.textContent = formatTratamiento(opt.dataset.tratamientoKey);
+    }
+  });
+}
+
 document.addEventListener('DOMContentLoaded', function(){
   populateMinaFilter();
-  ['f-nivel','f-precio','f-ct','f-origen','f-mina','f-orden'].forEach(id => {
-    document.getElementById(id).addEventListener('change', render);
+  populateTratamientoFilter();
+
+  const urlParams = new URLSearchParams(window.location.search);
+  const wantedMina = urlParams.get('mina');
+  if(wantedMina){
+    const minaSelect = document.getElementById('f-mina');
+    const hasOption = Array.from(minaSelect.options).some(function(o){ return o.value === wantedMina; });
+    if(hasOption) minaSelect.value = wantedMina;
+  }
+
+  ['f-nivel','f-precio','f-ct','f-origen','f-mina','f-tratamiento','f-orden'].forEach(id => {
+    const el = document.getElementById(id);
+    if(el) el.addEventListener('change', render);
   });
   document.getElementById('f-reset').addEventListener('click', function(){
-    ['f-nivel','f-precio','f-ct','f-origen','f-mina','f-orden'].forEach(id => { document.getElementById(id).value = ""; });
+    ['f-nivel','f-precio','f-ct','f-origen','f-mina','f-tratamiento','f-orden'].forEach(id => { const el = document.getElementById(id); if(el) el.value = ""; });
     favOnly = false;
     updateFavToggleLabel();
     render();
@@ -717,15 +1050,37 @@ document.addEventListener('DOMContentLoaded', function(){
     if(e.key === 'Escape'){ closeModal(); closeCompareModal(); }
   });
 
+  var chartToggleBtn = document.getElementById('chart-toggle');
+  if(chartToggleBtn) chartToggleBtn.addEventListener('click', toggleChart);
+
+  var shareBtn = document.getElementById('modal-share');
+  if(shareBtn) shareBtn.addEventListener('click', function(){
+    var m = document.getElementById('piece-modal');
+    var piece = PIECES.find(function(p){ return p.id === m.dataset.pieceId; });
+    if(piece) sharePiece(piece);
+  });
+  var downloadBtn = document.getElementById('modal-download-sheet');
+  if(downloadBtn) downloadBtn.addEventListener('click', function(){
+    var m = document.getElementById('piece-modal');
+    var piece = PIECES.find(function(p){ return p.id === m.dataset.pieceId; });
+    if(piece) downloadFicha(piece);
+  });
+
   render();
   updateFavWhatsappBtn();
   updateFavToggleLabel();
+  renderValueRange();
+  renderRecents();
 
   document.addEventListener('sl-lang-changed', function(){
     render();
     updateCompareBar();
     updateFavWhatsappBtn();
     updateFavToggleLabel();
+    renderValueRange();
+    renderRecents();
+    refreshTratamientoFilterLabels();
+    if(chartOpen) renderChart();
     var modal = document.getElementById('piece-modal');
     if(modal.classList.contains('open') && modal.dataset.pieceId){
       var piece = PIECES.find(p => p.id === modal.dataset.pieceId);
