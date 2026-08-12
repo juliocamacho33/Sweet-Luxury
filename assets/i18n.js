@@ -56,7 +56,7 @@
     /* ---------- index.html ---------- */
     hero_eyebrow: { es:"Sweet Luxury · 3 años seleccionando esmeraldas", en:"Sweet Luxury · 3 years selecting emeralds", fr:"Sweet Luxury · 3 ans à sélectionner des émeraudes", pt:"Sweet Luxury · 3 anos selecionando esmeraldas" },
     hero_title: { es:"Esmeraldas colombianas, elegidas una a una", en:"Colombian emeralds, chosen one by one", fr:"Émeraudes colombiennes, choisies une à une", pt:"Esmeraldas colombianas, escolhidas uma a uma" },
-    hero_desc: { es:"Piedras de mina colombiana seleccionadas con criterio, desde piezas clásicas hasta piezas exclusivas. Origen verificado y asesoría cercana en cada compra.", en:"Stones from Colombian mines, carefully selected from classic to exclusive pieces. Verified origin and close guidance with every purchase.", fr:"Pierres de mines colombiennes sélectionnées avec exigence, des pièces classiques aux pièces exclusives. Origine vérifiée et accompagnement personnalisé à chaque achat.", pt:"Pedras de minas colombianas selecionadas com critério, de peças clássicas a peças exclusivas. Origem verificada e assessoria próxima em cada compra." },
+    hero_desc: { es:"Piedras de mina colombiana seleccionadas con criterio, desde niveles esenciales hasta piezas exclusivas. Origen verificado y asesoría cercana en cada compra.", en:"Stones from Colombian mines, carefully selected from entry-level to exclusive pieces. Verified origin and close guidance with every purchase.", fr:"Pierres de mines colombiennes sélectionnées avec exigence, des niveaux essentiels aux pièces exclusives. Origine vérifiée et accompagnement personnalisé à chaque achat.", pt:"Pedras de minas colombianas selecionadas com critério, de níveis essenciais a peças exclusivas. Origem verificada e assessoria próxima em cada compra." },
     hero_cta_collection: { es:"Ver colección", en:"View collection", fr:"Voir la collection", pt:"Ver coleção" },
 
     m_emeralds: { es:"Esmeraldas colombianas", en:"Colombian emeralds", fr:"Émeraudes colombiennes", pt:"Esmeraldas colombianas" },
@@ -74,7 +74,7 @@
     why1_h: { es:"Selección personal de cada piedra", en:"Personal selection of every stone", fr:"Sélection personnelle de chaque pierre", pt:"Seleção pessoal de cada pedra" },
     why1_p: { es:"Cada esmeralda pasa por una revisión individual de color, cristal y proporción antes de ofrecerse.", en:"Every emerald goes through an individual review of color, crystal and proportion before it's offered.", fr:"Chaque émeraude fait l'objet d'un examen individuel de couleur, de cristal et de proportion avant d'être proposée.", pt:"Cada esmeralda passa por uma revisão individual de cor, cristal e proporção antes de ser oferecida." },
     why2_h: { es:"Niveles claros", en:"Clear tiers", fr:"Niveaux clairs", pt:"Níveis claros" },
-    why2_p: { es:"Colecciones Clásica, Premium y Exclusiva para distintos presupuestos y ocasiones, sin perder calidad.", en:"Classic, Premium and Exclusive collections for different budgets and occasions, without losing quality.", fr:"Collections Classique, Premium et Exclusive pour différents budgets et occasions, sans compromis sur la qualité.", pt:"Coleções Clássica, Premium e Exclusiva para diferentes orçamentos e ocasiões, sem perder qualidade." },
+    why2_p: { es:"Colecciones Esencial, Selecta y Exclusiva para distintos presupuestos y ocasiones, sin perder calidad.", en:"Essential, Select and Exclusive collections for different budgets and occasions, without losing quality.", fr:"Collections Essentiel, Sélecte et Exclusive pour différents budgets et occasions, sans compromis sur la qualité.", pt:"Coleções Essencial, Seleta e Exclusiva para diferentes orçamentos e ocasiões, sem perder qualidade." },
     why3_h: { es:"Información honesta", en:"Honest information", fr:"Information honnête", pt:"Informação honesta" },
     why3_p: { es:"Se indica siempre el tratamiento de cada piedra: Sin tratamiento, ACEITE o PERMA.", en:"The treatment of every stone is always disclosed: No treatment, OIL or PERMA.", fr:"Le traitement de chaque pierre est toujours indiqué : Sans traitement, HUILE ou PERMA.", pt:"O tratamento de cada pedra é sempre indicado: Sem tratamento, ÓLEO ou PERMA." },
     why4_h: { es:"Acompañamiento cercano", en:"Close support", fr:"Accompagnement personnalisé", pt:"Acompanhamento próximo" },
@@ -114,7 +114,7 @@
     vm6: { es:"Envíos nacionales e internacionales", en:"Domestic and international shipping", fr:"Livraisons nationales et internationales", pt:"Envios nacionais e internacionais" },
 
     /* ---------- colecciones.html ---------- */
-    coll_h1: { es:"Clásica, Premium y Exclusiva", en:"Classic, Premium and Exclusive", fr:"Classique, Premium et Exclusive", pt:"Clássica, Premium e Exclusiva" },
+    coll_h1: { es:"Esencial, Selecta y Exclusiva", en:"Essential, Select and Exclusive", fr:"Essentiel, Sélecte et Exclusive", pt:"Essencial, Seleta e Exclusiva" },
     coll_desc: { es:"Cada piedra indica quilates, medidas, origen y tratamiento. Filtra por nivel, precio o quilates para encontrar la esmeralda correcta.", en:"Every stone lists carats, measurements, origin and treatment. Filter by level, price or carats to find the right emerald.", fr:"Chaque pierre indique carats, dimensions, origine et traitement. Filtrez par niveau, prix ou carats pour trouver la bonne émeraude.", pt:"Cada pedra indica quilates, medidas, origem e tratamento. Filtre por nível, preço ou quilates para encontrar a esmeralda certa." },
 
     lvl1_p: { es:"Piedras de entrada, ideales para primera compra o piezas sencillas.", en:"Entry-level stones, ideal for a first purchase or simple pieces.", fr:"Pierres d'entrée de gamme, idéales pour un premier achat ou des pièces simples.", pt:"Pedras de entrada, ideais para primeira compra ou peças simples." },
@@ -129,9 +129,9 @@
     filter_price_label: { es:"Precio máximo", en:"Maximum price", fr:"Prix maximum", pt:"Preço máximo" },
     filter_price_none: { es:"Sin límite", en:"No limit", fr:"Sans limite", pt:"Sem limite" },
     filter_price_1: { es:"Hasta $800.000", en:"Up to $800,000", fr:"Jusqu'à 800 000 $", pt:"Até $800.000" },
-    filter_price_2: { es:"Hasta $2.000.000", en:"Up to $2,000,000", fr:"Jusqu'à 2 000 000 $", pt:"Até $2.000.000" },
-    filter_price_3: { es:"Hasta $5.000.000", en:"Up to $5,000,000", fr:"Jusqu'à 5 000 000 $", pt:"Até $5.000.000" },
-    filter_price_4: { es:"Hasta $10.000.000", en:"Up to $10,000,000", fr:"Jusqu'à 10 000 000 $", pt:"Até $10.000.000" },
+    filter_price_2: { es:"Hasta $1.500.000", en:"Up to $1,500,000", fr:"Jusqu'à 1 500 000 $", pt:"Até $1.500.000" },
+    filter_price_3: { es:"Hasta $3.000.000", en:"Up to $3,000,000", fr:"Jusqu'à 3 000 000 $", pt:"Até $3.000.000" },
+    filter_price_4: { es:"Hasta $12.000.000", en:"Up to $12,000,000", fr:"Jusqu'à 12 000 000 $", pt:"Até $12.000.000" },
     filter_ct_label: { es:"Quilates mínimos", en:"Minimum carats", fr:"Carats minimum", pt:"Quilates mínimos" },
     filter_origin_label: { es:"Origen", en:"Origin", fr:"Origine", pt:"Origem" },
     filter_mine_label: { es:"Mina", en:"Mine", fr:"Mine", pt:"Mina" },
@@ -180,28 +180,6 @@
     fav_whatsapp_msg_intro: { es:"Hola Sweet Luxury, me interesan estas piezas:", en:"Hi Sweet Luxury, I'm interested in these pieces:", fr:"Bonjour Sweet Luxury, ces pièces m'intéressent :", pt:"Olá Sweet Luxury, tenho interesse nestas peças:" },
     piece_whatsapp_msg_intro: { es:"Hola Sweet Luxury, me interesa esta pieza:", en:"Hi Sweet Luxury, I'm interested in this piece:", fr:"Bonjour Sweet Luxury, cette pièce m'intéresse :", pt:"Olá Sweet Luxury, tenho interesse nesta peça:" },
 
-    /* ---------- colecciones.html: funciones nuevas (precio/ct, similares, rareza, ficha, gráfico) ---------- */
-    filter_treatment_label: { es:"Tratamiento", en:"Treatment", fr:"Traitement", pt:"Tratamento" },
-    filter_sort_value: { es:"Mejor precio por quilate", en:"Best price per carat", fr:"Meilleur prix au carat", pt:"Melhor preço por quilate" },
-    label_price_per_ct: { es:"Precio por quilate", en:"Price per carat", fr:"Prix au carat", pt:"Preço por quilate" },
-    value_range_label: { es:"Referencia de precio por quilate", en:"Price-per-carat reference", fr:"Référence de prix au carat", pt:"Referência de preço por quilate" },
-    similar_pieces_title: { es:"También te puede interesar", en:"You may also like", fr:"Vous pourriez aussi aimer", pt:"Você também pode gostar" },
-    compare_best_value: { es:"Mejor valor", en:"Best value", fr:"Meilleure valeur", pt:"Melhor valor" },
-    share_piece_label: { es:"Compartir", en:"Share", fr:"Partager", pt:"Compartilhar" },
-    share_copied_msg: { es:"Enlace copiado", en:"Link copied", fr:"Lien copié", pt:"Link copiado" },
-    recently_viewed_title: { es:"Vistos recientemente", en:"Recently viewed", fr:"Vus récemment", pt:"Vistos recentemente" },
-    rarity_note: { es:"Entre el {pct}% de piezas más grandes de nuestro catálogo actual, por quilates.", en:"Among the top {pct}% largest pieces in our current catalog, by carats.", fr:"Parmi les {pct}% de pièces les plus grandes de notre catalogue actuel, en carats.", pt:"Entre as {pct}% peças maiores de nosso catálogo atual, por quilates." },
-    download_sheet_btn: { es:"Descargar ficha técnica", en:"Download spec sheet", fr:"Télécharger la fiche technique", pt:"Baixar ficha técnica" },
-    sheet_title_label: { es:"Ficha técnica", en:"Spec sheet", fr:"Fiche technique", pt:"Ficha técnica" },
-    sheet_print_btn: { es:"Imprimir / Guardar como PDF", en:"Print / Save as PDF", fr:"Imprimer / Enregistrer en PDF", pt:"Imprimir / Salvar como PDF" },
-    sheet_footer_note: { es:"Pieza única — no hay dos esmeraldas iguales. Certificado gemológico disponible bajo pedido.", en:"One-of-a-kind piece — no two emeralds are alike. Gemological certificate available on request.", fr:"Pièce unique — il n'y a pas deux émeraudes identiques. Certificat gemmologique disponible sur demande.", pt:"Peça única — não há duas esmeraldas iguais. Certificado gemológico disponível sob encomenda." },
-    chart_toggle_show: { es:"Ver gráfico de valor", en:"View value chart", fr:"Voir le graphique de valeur", pt:"Ver gráfico de valor" },
-    chart_toggle_hide: { es:"Ocultar gráfico de valor", en:"Hide value chart", fr:"Masquer le graphique de valeur", pt:"Ocultar gráfico de valor" },
-    chart_title: { es:"Quilates vs. precio de todo el catálogo", en:"Carats vs. price across the whole catalog", fr:"Carats vs. prix de tout le catalogue", pt:"Quilates vs. preço de todo o catálogo" },
-    chart_axis_ct: { es:"Quilates →", en:"Carats →", fr:"Carats →", pt:"Quilates →" },
-    chart_axis_price: { es:"Precio ↑", en:"Price ↑", fr:"Prix ↑", pt:"Preço ↑" },
-    chart_hint: { es:"Toca un punto para ver la pieza", en:"Tap a dot to view the piece", fr:"Touchez un point pour voir la pièce", pt:"Toque em um ponto para ver a peça" },
-
     /* ---------- nosotros.html ---------- */
     about_h1: { es:"Nuestra historia", en:"Our story", fr:"Notre histoire", pt:"Nossa história" },
     about_since: { es:"Desde 2023", en:"Since 2023", fr:"Depuis 2023", pt:"Desde 2023" },
@@ -218,9 +196,6 @@
     mine3_p: { es:"Vecina de Muzo y una de las minas más productivas del país. Ofrece el rango de tonos más amplio, desde verdes intensos hasta piedras más claras, para presupuestos muy distintos.", en:"Neighboring Muzo, and one of the country's most productive mines. It offers the widest range of tones, from intense greens to lighter stones, for very different budgets.", fr:"Voisine de Muzo, c'est l'une des mines les plus productives du pays. Elle offre la gamme de teintes la plus large, des verts intenses aux pierres plus claires, pour des budgets très différents.", pt:"Vizinha de Muzo e uma das minas mais produtivas do país. Oferece a gama de tons mais ampla, de verdes intensos a pedras mais claras, para orçamentos bem diferentes." },
     mine4_p: { es:"Ubicada entre Muzo y Coscuez, es de las productoras más importantes de las últimas décadas. De sus vetas salen algunos de los cristales más grandes y de mejor calidad que hoy se extraen en Colombia.", en:"Located between Muzo and Coscuez, it's been one of the most important producers of recent decades. Its veins yield some of the largest, highest-quality crystals mined in Colombia today.", fr:"Située entre Muzo et Coscuez, c'est l'une des productrices les plus importantes des dernières décennies. Ses veines livrent certains des plus grands cristaux et de la meilleure qualité extraits aujourd'hui en Colombie.", pt:"Localizada entre Muzo e Coscuez, é uma das produtoras mais importantes das últimas décadas. De seus veios saem alguns dos cristais maiores e de melhor qualidade hoje extraídos na Colômbia." },
     origin_note: { es:"La mina exacta de cada piedra no siempre se certifica sin un laboratorio gemológico; cuando la tengamos identificada por pieza, la indicamos en el catálogo.", en:"The exact mine of each stone can't always be certified without a gemological lab; once we have it identified per piece, we'll note it in the catalog.", fr:"La mine exacte de chaque pierre ne peut pas toujours être certifiée sans laboratoire gemmologique ; dès que nous l'aurons identifiée pour chaque pièce, nous l'indiquerons dans le catalogue.", pt:"A mina exata de cada pedra nem sempre pode ser certificada sem um laboratório gemológico; quando a tivermos identificada por peça, indicaremos no catálogo." },
-    mine_map_hint: { es:"Toca una mina para conocer su carácter", en:"Tap a mine to learn its character", fr:"Touchez une mine pour découvrir son caractère", pt:"Toque em uma mina para conhecer seu caráter" },
-    mine_map_cta: { es:"Ver piezas de esta mina", en:"View pieces from this mine", fr:"Voir les pièces de cette mine", pt:"Ver peças desta mina" },
-    mine_map_none: { es:"Aún no tenemos piezas identificadas de esta mina en el catálogo — pregúntanos por WhatsApp.", en:"We don’t have pieces identified from this mine in the catalog yet — ask us on WhatsApp.", fr:"Nous n’avons pas encore de pièces identifiées de cette mine dans le catalogue — demandez-nous sur WhatsApp.", pt:"Ainda não temos peças identificadas desta mina no catálogo — pergunte-nos pelo WhatsApp." },
 
     commitment_eyebrow: { es:"Compromiso", en:"Commitment", fr:"Engagement", pt:"Compromisso" },
     commitment_h2: { es:"Lo que garantizamos en cada venta", en:"What we guarantee on every sale", fr:"Ce que nous garantissons à chaque vente", pt:"O que garantimos em cada venda" },
@@ -286,8 +261,8 @@
     "de":         { en:"of",      fr:"de",      pt:"de" },
     "lágrimas":  { en:"teardrops", fr:"larmes", pt:"lágrimas" },
     /* niveles */
-    "Clásica":    { en:"Classic",   fr:"Classique", pt:"Clássica" },
-    "Premium":    { en:"Premium",   fr:"Premium",   pt:"Premium" },
+    "Esencial":   { en:"Essential", fr:"Essentiel", pt:"Essencial" },
+    "Selecta":    { en:"Select",    fr:"Sélecte",   pt:"Seleta" },
     "Exclusiva":  { en:"Exclusive", fr:"Exclusive", pt:"Exclusiva" },
     /* origen */
     "Brasil":     { en:"Brazil",  fr:"Brésil",  pt:"Brasil" }
@@ -336,16 +311,16 @@
 
   var PAGE_META = {
     index: {
-      es:{ title:"Sweet Luxury | Esmeraldas colombianas", desc:"Esmeraldas colombianas elegidas una a una. Piedras desde piezas clásicas hasta exclusivas, con origen verificado y joyería a la medida." },
-      en:{ title:"Sweet Luxury | Colombian Emeralds", desc:"Colombian emeralds chosen one by one. Stones from classic to exclusive, with verified origin and custom-made jewelry." },
-      fr:{ title:"Sweet Luxury | Émeraudes colombiennes", desc:"Émeraudes colombiennes choisies une à une. Pierres du niveau classique au niveau exclusif, avec origine vérifiée et bijouterie sur mesure." },
-      pt:{ title:"Sweet Luxury | Esmeraldas colombianas", desc:"Esmeraldas colombianas escolhidas uma a uma. Pedras de níveis clássicos a exclusivas, com origem verificada e joalheria sob medida." }
+      es:{ title:"Sweet Luxury | Esmeraldas colombianas", desc:"Esmeraldas colombianas elegidas una a una. Piedras desde niveles esenciales hasta exclusivas, con origen verificado y joyería a la medida." },
+      en:{ title:"Sweet Luxury | Colombian Emeralds", desc:"Colombian emeralds chosen one by one. Stones from entry-level to exclusive, with verified origin and custom-made jewelry." },
+      fr:{ title:"Sweet Luxury | Émeraudes colombiennes", desc:"Émeraudes colombiennes choisies une à une. Pierres du niveau essentiel au niveau exclusif, avec origine vérifiée et bijouterie sur mesure." },
+      pt:{ title:"Sweet Luxury | Esmeraldas colombianas", desc:"Esmeraldas colombianas escolhidas uma a uma. Pedras de níveis essenciais a exclusivas, com origem verificada e joalheria sob medida." }
     },
     colecciones: {
-      es:{ title:"Colecciones | Sweet Luxury", desc:"Colecciones Clásica, Premium y Exclusiva de esmeraldas colombianas. Filtra por nivel, precio, quilates y origen." },
-      en:{ title:"Collections | Sweet Luxury", desc:"Classic, Premium and Exclusive collections of Colombian emeralds. Filter by level, price, carats and origin." },
-      fr:{ title:"Collections | Sweet Luxury", desc:"Collections Classique, Premium et Exclusive d'émeraudes colombiennes. Filtrez par niveau, prix, carats et origine." },
-      pt:{ title:"Coleções | Sweet Luxury", desc:"Coleções Clássica, Premium e Exclusiva de esmeraldas colombianas. Filtre por nível, preço, quilates e origem." }
+      es:{ title:"Colecciones | Sweet Luxury", desc:"Colecciones Esencial, Selecta y Exclusiva de esmeraldas colombianas. Filtra por nivel, precio, quilates y origen." },
+      en:{ title:"Collections | Sweet Luxury", desc:"Essential, Select and Exclusive collections of Colombian emeralds. Filter by level, price, carats and origin." },
+      fr:{ title:"Collections | Sweet Luxury", desc:"Collections Essentiel, Sélecte et Exclusive d'émeraudes colombiennes. Filtrez par niveau, prix, carats et origine." },
+      pt:{ title:"Coleções | Sweet Luxury", desc:"Coleções Essencial, Seleta e Exclusiva de esmeraldas colombianas. Filtre por nível, preço, quilates e origem." }
     },
     nosotros: {
       es:{ title:"Nosotros | Sweet Luxury", desc:"La historia de Sweet Luxury: 3 años seleccionando esmeraldas colombianas con transparencia y asesoría cercana." },

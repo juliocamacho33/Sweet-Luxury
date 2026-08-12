@@ -130,46 +130,22 @@
       <h2 data-i18n="origin_h2">Las minas que le dan carácter a cada esmeralda</h2>
       <p data-i18n="origin_desc">Colombia concentra las minas de esmeralda más reconocidas del mundo, y cada una imprime un carácter distinto a la piedra. Esto es lo que distingue a las cuatro minas históricas del cinturón esmeraldífero de Boyacá.</p>
     </div>
-    <div class="mine-map" id="mine-map" data-reveal="up">
-      <p class="mine-map-hint" data-i18n="mine_map_hint">Toca una mina para conocer su caracter</p>
-      <div class="mine-map-stage">
-        <svg class="mine-map-belt" viewBox="0 0 600 220" preserveAspectRatio="none" aria-hidden="true">
-          <path d="M40,150 C150,60 260,180 340,90 C420,20 500,80 560,50" fill="none" stroke="var(--line)" stroke-width="2" stroke-dasharray="3 7"/>
-        </svg>
-        <button type="button" class="mine-pin" data-mine="muzo" style="left:7%;top:64%;">
-          <span class="mine-pin-dot"></span><span class="mine-pin-label">Muzo</span>
-        </button>
-        <button type="button" class="mine-pin" data-mine="coscuez" style="left:24%;top:26%;">
-          <span class="mine-pin-dot"></span><span class="mine-pin-label">Coscuez</span>
-        </button>
-        <button type="button" class="mine-pin" data-mine="lapita" style="left:56%;top:55%;">
-          <span class="mine-pin-dot"></span><span class="mine-pin-label">La Pita</span>
-        </button>
-        <button type="button" class="mine-pin" data-mine="chivor" style="left:90%;top:20%;">
-          <span class="mine-pin-dot"></span><span class="mine-pin-label">Chivor</span>
-        </button>
+    <div class="glossary-list">
+      <div class="glossary-item" data-reveal="left">
+        <h4>Muzo</h4>
+        <p data-i18n="mine1_p">La mina más célebre de Colombia. Produce el clásico verde intenso y cálido, con un ligero matiz amarillento — el tono que la tradición joyera llama "gota de aceite".</p>
       </div>
-      <div class="mine-panel-list">
-        <div class="mine-panel" id="mine-panel-muzo">
-          <h4>Muzo</h4>
-          <p data-i18n="mine1_p">La mina mas celebre de Colombia. Produce el clasico verde intenso y calido, con un ligero matiz amarillento &mdash; el tono que la tradicion joyera llama "gota de aceite".</p>
-          <span class="mine-panel-note" data-i18n="mine_map_none">Aun no tenemos piezas identificadas de esta mina en el catalogo &mdash; preguntanos por WhatsApp.</span>
-        </div>
-        <div class="mine-panel" id="mine-panel-coscuez">
-          <h4>Coscuez</h4>
-          <p data-i18n="mine3_p">Vecina de Muzo y una de las minas mas productivas del pais. Ofrece el rango de tonos mas amplio, desde verdes intensos hasta piedras mas claras, para presupuestos muy distintos.</p>
-          <a class="mine-panel-cta" href="colecciones.html?mina=Coscuez" data-i18n="mine_map_cta">Ver piezas de esta mina</a>
-        </div>
-        <div class="mine-panel" id="mine-panel-lapita">
-          <h4>La Pita</h4>
-          <p data-i18n="mine4_p">Ubicada entre Muzo y Coscuez, es de las productoras mas importantes de las ultimas decadas. De sus vetas salen algunos de los cristales mas grandes y de mejor calidad que hoy se extraen en Colombia.</p>
-          <span class="mine-panel-note" data-i18n="mine_map_none">Aun no tenemos piezas identificadas de esta mina en el catalogo &mdash; preguntanos por WhatsApp.</span>
-        </div>
-        <div class="mine-panel" id="mine-panel-chivor">
-          <h4>Chivor</h4>
-          <p data-i18n="mine2_p">Al oriente de Boyaca, una de las minas historicas mas antiguas. Da esmeraldas de verde mas frio y azulado, con gran transparencia y pocas inclusiones.</p>
-          <a class="mine-panel-cta" href="colecciones.html?mina=Chivor" data-i18n="mine_map_cta">Ver piezas de esta mina</a>
-        </div>
+      <div class="glossary-item" data-reveal="left">
+        <h4>Chivor</h4>
+        <p data-i18n="mine2_p">Al oriente de Boyacá, una de las minas históricas más antiguas. Da esmeraldas de verde más frío y azulado, con gran transparencia y pocas inclusiones.</p>
+      </div>
+      <div class="glossary-item" data-reveal="left">
+        <h4>Coscuez</h4>
+        <p data-i18n="mine3_p">Vecina de Muzo y una de las minas más productivas del país. Ofrece el rango de tonos más amplio, desde verdes intensos hasta piedras más claras, para presupuestos muy distintos.</p>
+      </div>
+      <div class="glossary-item" data-reveal="left">
+        <h4>La Pita</h4>
+        <p data-i18n="mine4_p">Ubicada entre Muzo y Coscuez, es de las productoras más importantes de las últimas décadas. De sus vetas salen algunos de los cristales más grandes y de mejor calidad que hoy se extraen en Colombia.</p>
       </div>
     </div>
     <p style="font-size:0.85rem;color:var(--ink-soft);margin-top:8px;" data-i18n="origin_note">La mina exacta de cada piedra no siempre se certifica sin un laboratorio gemológico; cuando la tengamos identificada por pieza, la indicamos en el catálogo.</p>
@@ -328,18 +304,6 @@
         syncThemeToggleAria();
       });
     }
-
-    var minePins = document.querySelectorAll('.mine-pin');
-    var minePanels = document.querySelectorAll('.mine-panel');
-    function activateMine(key){
-      minePins.forEach(function(pin){ pin.classList.toggle('active', pin.dataset.mine === key); });
-      minePanels.forEach(function(panel){ panel.classList.toggle('active', panel.id === 'mine-panel-' + key); });
-    }
-    minePins.forEach(function(pin){
-      pin.addEventListener('click', function(){ activateMine(pin.dataset.mine); });
-    });
-    if(minePins.length) activateMine(minePins[0].dataset.mine);
-
   });
 </script>
 <script src="assets/i18n.js"></script>
