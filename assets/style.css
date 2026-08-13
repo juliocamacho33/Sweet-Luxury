@@ -249,8 +249,8 @@ html[data-theme="dark"] .theme-toggle .icon-sun{display:block;}
 .hero::before{
   content:'';
   position:absolute;inset:0;
-  background:linear-gradient(180deg, rgba(18,18,16,0.4), rgba(18,18,16,0.22)), url('https://imgproxy.treinta.co/sig/size:2400:::/quality:96/plain/https%3A%2F%2Fcdn.treinta.co%2Fnew-products%2Fproducts%2F78e96f64-42a3-51fd-8411-9360020530a8%2Fa30512b5-c3b2-5295-b4a8-6d4a7dbf2023.jpg') center 54%/cover no-repeat;
-  filter:saturate(1.35) contrast(1.1) brightness(1.05);
+  background:linear-gradient(180deg, rgba(10,14,12,0.28), rgba(8,12,10,0.12) 40%, rgba(6,10,8,0.5)), url('assets/img/hero-mina-esmeralda.svg') center 50%/cover no-repeat;
+  filter:saturate(1.08) contrast(1.03);
   transform:scale(1);
   z-index:0;
 }
