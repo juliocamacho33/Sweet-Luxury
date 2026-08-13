@@ -292,13 +292,13 @@ html[data-theme="dark"] .theme-toggle .icon-sun{display:block;}
   margin:0;
   font-family:'Cormorant Garamond', serif;
   font-weight:500;
-  font-size:clamp(1.1rem, 2.6vw, 1.9rem);
+  font-size:clamp(1.4rem, 3.4vw, 2.4rem);
   letter-spacing:0.4em;
   text-transform:uppercase;
-  color:rgba(255,255,255,0.5);
+  color:rgba(255,255,255,0.85);
+  text-shadow:0 2px 12px rgba(0,0,0,0.7), 0 1px 3px rgba(0,0,0,0.6);
   pointer-events:none;
   white-space:nowrap;
-  mix-blend-mode:overlay;
 }
 @media (max-width:760px){
   .hero-watermark{display:none;}
