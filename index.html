@@ -99,6 +99,9 @@
 </header>
 
 <section class="hero">
+  <video class="hero-video" autoplay muted loop playsinline preload="auto" poster="assets/img/hero-poster.jpg">
+    <source src="assets/video/hero-mina.mp4" type="video/mp4">
+  </video>
   <div class="container">
     <div class="hero-content">
       <span class="eyebrow" data-i18n="hero_eyebrow">Sweet Luxury · 3 años seleccionando esmeraldas</span>
@@ -405,6 +408,12 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function(){
+    var heroVideo = document.querySelector('.hero-video');
+    if(heroVideo && window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+      heroVideo.removeAttribute('autoplay');
+      heroVideo.pause();
+    }
+
     var toggle = document.querySelector('.nav-toggle');
     var menu = document.querySelector('.main-nav ul');
     if(toggle && menu){ toggle.addEventListener('click', function(){ var isOpen = menu.classList.toggle('open'); toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false'); }); }

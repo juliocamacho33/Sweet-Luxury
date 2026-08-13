@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Entrada a una mina de esmeraldas con un anillo de diamantes grabado Sweet Luxury">
+<title>Sweet Luxury — Entrada a la mina</title>
+<defs>
+
+  <radialGradient id="bgRadial" cx="1100" cy="430" r="980" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#2d5847"/>
+    <stop offset="30%" stop-color="#173428"/>
+    <stop offset="60%" stop-color="#0b1a14"/>
+    <stop offset="100%" stop-color="#020403"/>
+  </radialGradient>
+
+  <linearGradient id="rockGrad" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#1c2721"/>
+    <stop offset="100%" stop-color="#050805"/>
+  </linearGradient>
+
+  <linearGradient id="rockGrad2" x1="1" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#151f1a"/>
+    <stop offset="100%" stop-color="#040604"/>
+  </linearGradient>
+
+  <linearGradient id="rockLit" x1="0" y1="0" x2="1" y2="0.15">
+    <stop offset="0%" stop-color="#e8b25f" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#e8b25f" stop-opacity="0.5"/>
+  </linearGradient>
+
+  <radialGradient id="emeraldGrad" cx="45%" cy="32%" r="70%">
+    <stop offset="0%" stop-color="#9df5cd"/>
+    <stop offset="45%" stop-color="#2fae7c"/>
+    <stop offset="100%" stop-color="#0c3a29"/>
+  </radialGradient>
+
+  <linearGradient id="beamGrad" x1="1" y1="0" x2="0.25" y2="1">
+    <stop offset="0%" stop-color="#ffe3ae" stop-opacity="0.6"/>
+    <stop offset="100%" stop-color="#ffe3ae" stop-opacity="0"/>
+  </linearGradient>
+
+  <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#fdefc9"/>
+    <stop offset="30%" stop-color="#e0b268"/>
+    <stop offset="62%" stop-color="#946a2c"/>
+    <stop offset="100%" stop-color="#4c3714"/>
+  </linearGradient>
+
+  <radialGradient id="diamondGrad" cx="35%" cy="28%" r="75%">
+    <stop offset="0%" stop-color="#ffffff"/>
+    <stop offset="55%" stop-color="#e2f2ff"/>
+    <stop offset="100%" stop-color="#9cc2e2"/>
+  </radialGradient>
+
+  <linearGradient id="ledgeGrad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#4a3a22"/>
+    <stop offset="45%" stop-color="#201808"/>
+    <stop offset="100%" stop-color="#050402"/>
+  </linearGradient>
+
+  <linearGradient id="bubbleGrad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#26221a" stop-opacity="0.92"/>
+    <stop offset="100%" stop-color="#100e0a" stop-opacity="0.92"/>
+  </linearGradient>
+
+  <radialGradient id="vignetteLeft" cx="230" cy="560" r="600" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#000000" stop-opacity="0.55"/>
+    <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+  </radialGradient>
+
+  <radialGradient id="edgeVignette" cx="800" cy="450" r="1000" gradientUnits="userSpaceOnUse">
+    <stop offset="55%" stop-color="#000000" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#000000" stop-opacity="0.55"/>
+  </radialGradient>
+
+  <mask id="ringHoleMask">
+    <rect x="900" y="400" width="360" height="220" fill="#ffffff"/>
+    <ellipse cx="1080" cy="513" rx="97" ry="31" fill="#000000"/>
+  </mask>
+
+  <filter id="glow" x="-120%" y="-120%" width="340%" height="340%">
+    <feGaussianBlur stdDeviation="7" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+
+  <filter id="glowSoft" x="-150%" y="-150%" width="400%" height="400%">
+    <feGaussianBlur stdDeviation="14" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+
+  <filter id="beamBlur" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="35"/>
+  </filter>
+</defs>
+
+<!-- base -->
+<rect x="0" y="0" width="1600" height="900" fill="url(#bgRadial)"/>
+
+<!-- light beam from upper right -->
+<polygon points="1750,-80 1750,430 980,560 1120,120" fill="url(#beamGrad)" filter="url(#beamBlur)"/>
+
+<!-- big left + top rock mass framing the tunnel mouth -->
+<polygon points="0,0 720,0 650,55 730,145 600,185 690,265 555,305 640,390 495,430 565,510 415,545 485,650 345,690 400,790 275,825 330,900 0,900"
+  fill="url(#rockGrad)" stroke="#caa15e" stroke-opacity="0.28" stroke-width="2" stroke-linejoin="round"/>
+<!-- warm rim light catching the inner facets of the left mass (broad band following the edge) -->
+<polygon points="730,145 600,185 690,265 555,305 640,390 495,430 565,510 415,545 485,650 395,650 325,545 475,510 405,430 550,390 465,305 600,265 510,185 640,145"
+  fill="url(#rockLit)" opacity="0.5"/>
+
+<!-- small rock mass, top-right corner -->
+<polygon points="1600,0 1600,235 1470,165 1385,75 1495,0" fill="url(#rockGrad2)" stroke="#caa15e" stroke-opacity="0.28" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1600,235 1470,165 1385,75" fill="url(#rockLit)" opacity="0.35"/>
+
+<!-- thin rock sliver, bottom-right, for framing -->
+<polygon points="1600,900 1600,640 1500,700 1560,780 1520,900" fill="url(#rockGrad2)" stroke="#caa15e" stroke-opacity="0.22" stroke-width="1.5" stroke-linejoin="round"/>
+
+<!-- emerald veins embedded in the rock (kept out of the text-safe zone, left-center-low) -->
+<g filter="url(#glow)">
+  <polygon points="300,120 322,96 350,108 344,142 314,156 292,138" fill="url(#emeraldGrad)"/>
+  <polygon points="352,150 366,138 382,150 374,170 356,172" fill="url(#emeraldGrad)" opacity="0.85"/>
+</g>
+<g filter="url(#glow)">
+  <polygon points="590,150 616,128 648,140 642,178 608,192 582,172" fill="url(#emeraldGrad)"/>
+  <polygon points="618,192 636,182 652,196 640,214 620,212" fill="url(#emeraldGrad)" opacity="0.8"/>
+</g>
+<g filter="url(#glow)">
+  <polygon points="1430,250 1456,228 1488,240 1482,278 1448,292 1422,272" fill="url(#emeraldGrad)"/>
+  <polygon points="1394,280 1412,268 1428,282 1416,300 1396,298" fill="url(#emeraldGrad)" opacity="0.8"/>
+</g>
+<g filter="url(#glow)">
+  <polygon points="1500,560 1522,540 1550,552 1544,584 1514,596 1492,578" fill="url(#emeraldGrad)" opacity="0.9"/>
+</g>
+
+<!-- rock ledge where the ring rests -->
+<polygon points="790,900 900,560 1000,540 1120,555 1250,545 1360,590 1460,900" fill="url(#ledgeGrad)" stroke="#caa15e" stroke-opacity="0.22" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="1120,555 1250,545 1360,590 1460,900 1210,900 1150,650" fill="url(#rockLit)" opacity="0.28"/>
+<polygon points="900,560 1000,540 1120,555 1250,545 1360,590 1330,610 1220,575 1090,568 980,580 920,600" fill="url(#rockLit)" opacity="0.4"/>
+<!-- rubble at the base, blending the ledge into the cave floor -->
+<polygon points="760,900 800,840 850,870 830,900" fill="url(#rockGrad)" opacity="0.9"/>
+<polygon points="1420,900 1470,845 1520,875 1500,900" fill="url(#rockGrad2)" opacity="0.9"/>
+<polygon points="1300,900 1340,855 1385,880 1370,900" fill="url(#rockGrad)" opacity="0.85"/>
+<g filter="url(#glow)">
+  <polygon points="1330,820 1348,806 1368,816 1362,838 1340,846 1322,832" fill="url(#emeraldGrad)" opacity="0.9"/>
+</g>
+
+<!-- sparkle particles -->
+<g fill="#fdf6e3">
+  <polygon points="980,90 984,102 996,106 984,110 980,122 976,110 964,106 976,102" opacity="0.55"/>
+  <polygon points="1230,110 1233,119 1242,122 1233,125 1230,134 1227,125 1218,122 1227,119" opacity="0.5"/>
+  <polygon points="1350,470 1353,479 1362,482 1353,485 1350,494 1347,485 1338,482 1347,479" opacity="0.6"/>
+  <polygon points="880,300 883,309 892,312 883,315 880,324 877,315 868,312 877,309" opacity="0.4"/>
+  <polygon points="1520,380 1523,389 1532,392 1523,395 1520,404 1517,395 1508,392 1517,389" opacity="0.55"/>
+  <polygon points="1250,650 1253,659 1262,662 1253,665 1250,674 1247,665 1238,662 1247,659" opacity="0.45"/>
+</g>
+
+<!-- ================= RING ================= -->
+
+<!-- soft glow under the ring -->
+<ellipse cx="1080" cy="512" rx="150" ry="60" fill="#f3c878" opacity="0.18" filter="url(#glowSoft)"/>
+
+<!-- band (annulus via mask) -->
+<ellipse cx="1080" cy="505" rx="142" ry="58" fill="url(#goldGrad)" mask="url(#ringHoleMask)"/>
+<!-- thin highlight rim along the front-top edge of the band -->
+<path d="M 942,478 A 142,58 0 0 1 1218,478" fill="none" stroke="#fff3d6" stroke-width="3" opacity="0.55"/>
+
+<!-- pave diamonds along the top arc -->
+<g>
+  <polygon points="955,466 962,475 955,486 948,475" fill="url(#diamondGrad)"/>
+  <polygon points="978,451 986,460 978,472 970,460" fill="url(#diamondGrad)"/>
+  <polygon points="1014,440 1022,449 1014,461 1006,449" fill="url(#diamondGrad)"/>
+  <polygon points="1057,434 1066,443 1057,456 1048,443" fill="url(#diamondGrad)"/>
+  <polygon points="1080,428 1091,439 1080,453 1069,439" fill="url(#diamondGrad)" filter="url(#glow)"/>
+  <polygon points="1103,434 1112,443 1103,456 1094,443" fill="url(#diamondGrad)"/>
+  <polygon points="1147,440 1155,449 1147,461 1139,449" fill="url(#diamondGrad)"/>
+  <polygon points="1182,451 1190,460 1182,472 1174,460" fill="url(#diamondGrad)"/>
+  <polygon points="1205,466 1212,475 1205,486 1198,475" fill="url(#diamondGrad)"/>
+</g>
+<!-- extra sparkle glints on the two brightest stones -->
+<g fill="#ffffff" filter="url(#glow)">
+  <polygon points="1080,420 1084,434 1098,438 1084,442 1080,456 1076,442 1062,438 1076,434" opacity="0.85"/>
+  <polygon points="1057,426 1060,435 1069,438 1060,441 1057,450 1054,441 1045,438 1054,435" opacity="0.55"/>
+</g>
+
+<!-- engraving detail callout -->
+<line x1="1155" y1="470" x2="1250" y2="330" stroke="#d9ab55" stroke-width="1.5" opacity="0.8"/>
+<circle cx="1155" cy="470" r="4" fill="#f3d79a"/>
+<circle cx="1318" cy="255" r="92" fill="url(#bubbleGrad)" stroke="#c9a227" stroke-width="1.5"/>
+<circle cx="1318" cy="255" r="86" fill="none" stroke="#e8cf98" stroke-width="0.75" opacity="0.5"/>
+<text x="1318" y="248" text-anchor="middle" font-family="'Cormorant Garamond', Georgia, serif" font-style="italic" font-size="27" fill="#f7ecd2" letter-spacing="0.5">Sweet Luxury</text>
+<text x="1318" y="274" text-anchor="middle" font-family="Georgia, serif" font-size="10.5" letter-spacing="2.5" fill="#c9b98c">GRABADO INTERIOR</text>
+
+<!-- vignettes on top for legibility -->
+<rect x="0" y="0" width="1600" height="900" fill="url(#vignetteLeft)"/>
+<rect x="0" y="0" width="1600" height="900" fill="url(#edgeVignette)"/>
+
+</svg>
