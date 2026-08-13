@@ -15,14 +15,69 @@
   }
 
   /* ---------- Moneda por idioma ----------
-     Tasas aproximadas frente al COP (peso colombiano), la moneda base de los
-     precios del catálogo. Referencia: agosto 2026. Actualizar periódicamente. */
+     perCOP = cuántas unidades de esa moneda equivalen a 1 COP.
+     Arrancan con una tasa de respaldo (fallback) por si no hay internet o
+     falla la API; en cuanto carga la página se reemplazan por la tasa del
+     día real, obtenida de una API pública de cambio (ver fetchLiveRates). */
+  var FX_FALLBACK = { USD:1/3200, EUR:1/4300, BRL:1/628 };
+  var FX_CACHE_KEY = 'sl-fx-rates';
+  var FX_CACHE_MAX_AGE_MS = 6 * 60 * 60 * 1000; // 6 horas
+
   var CURRENCY = {
     es: { code:'COP', symbol:'$',  locale:'es-CO', perCOP:1 },
-    en: { code:'USD', symbol:'$',  locale:'en-US', perCOP:1/3200 },
-    fr: { code:'EUR', symbol:'€',  locale:'fr-FR', perCOP:1/4300 },
-    pt: { code:'BRL', symbol:'R$', locale:'pt-BR', perCOP:1/628 }
+    en: { code:'USD', symbol:'$',  locale:'en-US', perCOP:FX_FALLBACK.USD },
+    fr: { code:'EUR', symbol:'€',  locale:'fr-FR', perCOP:FX_FALLBACK.EUR },
+    pt: { code:'BRL', symbol:'R$', locale:'pt-BR', perCOP:FX_FALLBACK.BRL }
   };
+
+  function applyRates(rates){
+    if(!rates) return;
+    if(rates.USD) CURRENCY.en.perCOP = rates.USD;
+    if(rates.EUR) CURRENCY.fr.perCOP = rates.EUR;
+    if(rates.BRL) CURRENCY.pt.perCOP = rates.BRL;
+  }
+
+  function readCachedRates(){
+    try{
+      var raw = localStorage.getItem(FX_CACHE_KEY);
+      if(!raw) return null;
+      var parsed = JSON.parse(raw);
+      if(!parsed || !parsed.rates || !parsed.ts) return null;
+      return parsed;
+    }catch(e){ return null; }
+  }
+
+  function saveCachedRates(rates){
+    try{
+      localStorage.setItem(FX_CACHE_KEY, JSON.stringify({ rates: rates, ts: Date.now() }));
+    }catch(e){}
+  }
+
+  /* Trae el tipo de cambio real del día (COP -> USD/EUR/BRL) desde una API
+     pública gratuita, sin necesidad de llave/API key. Si ya hay una tasa en
+     caché de menos de FX_CACHE_MAX_AGE_MS, la usa de una vez para pintar los
+     precios sin esperar la red, y de todas formas revisa si hay una más
+     reciente en segundo plano. Si la petición falla (sin internet, API
+     caída), se queda con la tasa en caché o, en su defecto, con FX_FALLBACK. */
+  function fetchLiveRates(onUpdate){
+    var cached = readCachedRates();
+    if(cached){
+      applyRates(cached.rates);
+      if(typeof onUpdate === 'function') onUpdate();
+      if(Date.now() - cached.ts < FX_CACHE_MAX_AGE_MS) return;
+    }
+    if(typeof fetch !== 'function') return;
+    fetch('https://open.er-api.com/v6/latest/COP')
+      .then(function(res){ return res.ok ? res.json() : null; })
+      .then(function(data){
+        if(!data || data.result !== 'success' || !data.rates) return;
+        var rates = { USD: data.rates.USD, EUR: data.rates.EUR, BRL: data.rates.BRL };
+        applyRates(rates);
+        saveCachedRates(rates);
+        if(typeof onUpdate === 'function') onUpdate();
+      })
+      .catch(function(){ /* sin internet o API caída: se queda con caché/fallback */ });
+  }
 
   function formatPrice(cop, lang){
     lang = lang || getLang();
@@ -473,6 +528,10 @@
   document.addEventListener('DOMContentLoaded', function(){
     wireSwitcher();
     applyStatic(getLang());
+    fetchLiveRates(function(){
+      applyStatic(getLang());
+      document.dispatchEvent(new CustomEvent('sl-lang-changed', { detail:{ lang: getLang() } }));
+    });
   });
 
   window.SLI18N = {
