@@ -249,7 +249,7 @@ html[data-theme="dark"] .theme-toggle .icon-sun{display:block;}
 .hero::before{
   content:'';
   position:absolute;inset:0;
-  background:linear-gradient(180deg, rgba(10,14,12,0.28), rgba(8,12,10,0.12) 40%, rgba(6,10,8,0.5)), url('assets/img/hero-mina-esmeralda.svg') center 50%/cover no-repeat;
+  background:linear-gradient(180deg, rgba(10,14,12,0.28), rgba(8,12,10,0.12) 40%, rgba(6,10,8,0.5)), url('img/hero-mina-esmeralda.svg') center 50%/cover no-repeat;
   filter:saturate(1.08) contrast(1.03);
   transform:scale(1);
   z-index:0;
