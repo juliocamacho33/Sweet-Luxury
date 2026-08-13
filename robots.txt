@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.sweetluxury.co/sitemap.xml
+Sitemap: https://juliocamacho33.github.io/Sweet-Luxury/sitemap.xml
