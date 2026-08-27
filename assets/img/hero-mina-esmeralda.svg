@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Entrada a una mina de esmeraldas con un anillo de diamantes grabado Sweet Luxury">
-<title>Sweet Luxury — Entrada a la mina</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Entrada a una mina de esmeraldas con un anillo de diamantes grabado Sweet Luxury 123">
+<title>Sweet Luxury 123 — Entrada a la mina</title>
 <defs>
 
   <radialGradient id="bgRadial" cx="1100" cy="430" r="980" gradientUnits="userSpaceOnUse">
@@ -181,7 +181,7 @@
 <circle cx="1155" cy="470" r="4" fill="#f3d79a"/>
 <circle cx="1318" cy="255" r="92" fill="url(#bubbleGrad)" stroke="#c9a227" stroke-width="1.5"/>
 <circle cx="1318" cy="255" r="86" fill="none" stroke="#e8cf98" stroke-width="0.75" opacity="0.5"/>
-<text x="1318" y="248" text-anchor="middle" font-family="'Cormorant Garamond', Georgia, serif" font-style="italic" font-size="27" fill="#f7ecd2" letter-spacing="0.5">Sweet Luxury</text>
+<text x="1318" y="248" text-anchor="middle" font-family="'Cormorant Garamond', Georgia, serif" font-style="italic" font-size="27" fill="#f7ecd2" letter-spacing="0.5">Sweet Luxury 123</text>
 <text x="1318" y="274" text-anchor="middle" font-family="Georgia, serif" font-size="10.5" letter-spacing="2.5" fill="#c9b98c">GRABADO INTERIOR</text>
 
 <!-- vignettes on top for legibility -->
