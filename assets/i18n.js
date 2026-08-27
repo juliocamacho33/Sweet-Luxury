@@ -1,5 +1,5 @@
 /* =========================================================
-   Sweet Luxury 123 — Sistema de idiomas (ES / EN / FR / PT)
+   Sweet Luxury — Sistema de idiomas (ES / EN / FR / PT)
    ========================================================= */
 (function(){
 
@@ -45,7 +45,7 @@
     theme_toggle_aria:{ es:"Cambiar a modo oscuro", en:"Switch to dark mode", fr:"Passer en mode sombre", pt:"Mudar para modo escuro" },
     theme_toggle_aria_light:{ es:"Cambiar a modo claro", en:"Switch to light mode", fr:"Passer en mode clair", pt:"Mudar para modo claro" },
     lang_switcher_aria:{ es:"Cambiar idioma", en:"Change language", fr:"Changer de langue", pt:"Mudar idioma" },
-    footer_legal:     { es:"© 2026 Sweet Luxury 123. Todos los derechos reservados.", en:"© 2026 Sweet Luxury 123. All rights reserved.", fr:"© 2026 Sweet Luxury 123. Tous droits réservés.", pt:"© 2026 Sweet Luxury 123. Todos os direitos reservados." },
+    footer_legal:     { es:"© 2026 Sweet Luxury. Todos los derechos reservados.", en:"© 2026 Sweet Luxury. All rights reserved.", fr:"© 2026 Sweet Luxury. Tous droits réservés.", pt:"© 2026 Sweet Luxury. Todos os direitos reservados." },
 
     /* Reutilizables entre páginas */
     m_custom:  { es:"Joyería a la medida", en:"Custom-made jewelry", fr:"Bijouterie sur mesure", pt:"Joalheria sob medida" },
@@ -54,7 +54,7 @@
     cta_whatsapp_talk:  { es:"Hablar por WhatsApp", en:"Chat on WhatsApp", fr:"Discuter sur WhatsApp", pt:"Falar pelo WhatsApp" },
 
     /* ---------- index.html ---------- */
-    hero_eyebrow: { es:"Sweet Luxury 123 · 3 años seleccionando esmeraldas", en:"Sweet Luxury 123 · 3 years selecting emeralds", fr:"Sweet Luxury 123 · 3 ans à sélectionner des émeraudes", pt:"Sweet Luxury 123 · 3 anos selecionando esmeraldas" },
+    hero_eyebrow: { es:"Sweet Luxury · 3 años seleccionando esmeraldas", en:"Sweet Luxury · 3 years selecting emeralds", fr:"Sweet Luxury · 3 ans à sélectionner des émeraudes", pt:"Sweet Luxury · 3 anos selecionando esmeraldas" },
     hero_title: { es:"Esmeraldas colombianas, elegidas una a una", en:"Colombian emeralds, chosen one by one", fr:"Émeraudes colombiennes, choisies une à une", pt:"Esmeraldas colombianas, escolhidas uma a uma" },
     hero_desc: { es:"Piedras de mina colombiana seleccionadas con criterio, desde niveles esenciales hasta piezas exclusivas. Origen verificado y asesoría cercana en cada compra.", en:"Stones from Colombian mines, carefully selected from entry-level to exclusive pieces. Verified origin and close guidance with every purchase.", fr:"Pierres de mines colombiennes sélectionnées avec exigence, des niveaux essentiels aux pièces exclusives. Origine vérifiée et accompagnement personnalisé à chaque achat.", pt:"Pedras de minas colombianas selecionadas com critério, de níveis essenciais a peças exclusivas. Origem verificada e assessoria próxima em cada compra." },
     hero_cta_collection: { es:"Ver colección", en:"View collection", fr:"Voir la collection", pt:"Ver coleção" },
@@ -69,7 +69,7 @@
     trust2_p: { es:"Quilates, medidas y tratamiento de cada piedra, sin letra pequeña.", en:"Carats, measurements and treatment of every stone, no fine print.", fr:"Carats, dimensions et traitement de chaque pierre, sans petites lignes.", pt:"Quilates, medidas e tratamento de cada pedra, sem letras miúdas." },
     trust3_p: { es:"Diseñamos y montamos la pieza en oro o plata según tu idea.", en:"We design and set the piece in gold or silver, based on your idea.", fr:"Nous créons et montons la pièce en or ou en argent selon votre idée.", pt:"Desenhamos e montamos a peça em ouro ou prata conforme sua ideia." },
 
-    why_eyebrow: { es:"Por qué Sweet Luxury 123", en:"Why Sweet Luxury 123", fr:"Pourquoi Sweet Luxury 123", pt:"Por que Sweet Luxury 123" },
+    why_eyebrow: { es:"Por qué Sweet Luxury", en:"Why Sweet Luxury", fr:"Pourquoi Sweet Luxury", pt:"Por que Sweet Luxury" },
     why_title: { es:"Tres años eligiendo esmeraldas con criterio", en:"Three years choosing emeralds with care", fr:"Trois ans à choisir des émeraudes avec exigence", pt:"Três anos escolhendo esmeraldas com critério" },
     why1_h: { es:"Selección personal de cada piedra", en:"Personal selection of every stone", fr:"Sélection personnelle de chaque pierre", pt:"Seleção pessoal de cada pedra" },
     why1_p: { es:"Cada esmeralda pasa por una revisión individual de color, cristal y proporción antes de ofrecerse.", en:"Every emerald goes through an individual review of color, crystal and proportion before it's offered.", fr:"Chaque émeraude fait l'objet d'un examen individuel de couleur, de cristal et de proportion avant d'être proposée.", pt:"Cada esmeralda passa por uma revisão individual de cor, cristal e proporção antes de ser oferecida." },
@@ -177,15 +177,15 @@
     label_piece_selected_plural: { es:"piezas seleccionadas", en:"pieces selected", fr:"pièces sélectionnées", pt:"peças selecionadas" },
     compare_modal_title_suffix: { es:"piezas lado a lado", en:"pieces side by side", fr:"pièces côte à côte", pt:"peças lado a lado" },
     fav_whatsapp_label: { es:"Enviar favoritos", en:"Send favorites", fr:"Envoyer les favoris", pt:"Enviar favoritos" },
-    fav_whatsapp_msg_intro: { es:"Hola Sweet Luxury 123, me interesan estas piezas:", en:"Hi Sweet Luxury 123, I'm interested in these pieces:", fr:"Bonjour Sweet Luxury 123, ces pièces m'intéressent :", pt:"Olá Sweet Luxury 123, tenho interesse nestas peças:" },
-    piece_whatsapp_msg_intro: { es:"Hola Sweet Luxury 123, me interesa esta pieza:", en:"Hi Sweet Luxury 123, I'm interested in this piece:", fr:"Bonjour Sweet Luxury 123, cette pièce m'intéresse :", pt:"Olá Sweet Luxury 123, tenho interesse nesta peça:" },
+    fav_whatsapp_msg_intro: { es:"Hola Sweet Luxury, me interesan estas piezas:", en:"Hi Sweet Luxury, I'm interested in these pieces:", fr:"Bonjour Sweet Luxury, ces pièces m'intéressent :", pt:"Olá Sweet Luxury, tenho interesse nestas peças:" },
+    piece_whatsapp_msg_intro: { es:"Hola Sweet Luxury, me interesa esta pieza:", en:"Hi Sweet Luxury, I'm interested in this piece:", fr:"Bonjour Sweet Luxury, cette pièce m'intéresse :", pt:"Olá Sweet Luxury, tenho interesse nesta peça:" },
 
     /* ---------- nosotros.html ---------- */
     about_h1: { es:"Nuestra historia", en:"Our story", fr:"Notre histoire", pt:"Nossa história" },
     about_since: { es:"Desde 2023", en:"Since 2023", fr:"Depuis 2023", pt:"Desde 2023" },
     about_story_h2: { es:"Tres años dedicados a la esmeralda colombiana", en:"Three years devoted to the Colombian emerald", fr:"Trois ans dédiés à l'émeraude colombienne", pt:"Três anos dedicados à esmeralda colombiana" },
-    about_story_p1: { es:"Sweet Luxury 123 nació en Bogotá de una pasión simple: la esmeralda colombiana, una de las piedras más apreciadas del mundo, merece ser elegida con el mismo cuidado con el que se extrae de la tierra.", en:"Sweet Luxury 123 was born in Bogotá from a simple passion: the Colombian emerald, one of the world's most prized stones, deserves to be chosen with the same care with which it's drawn from the earth.", fr:"Sweet Luxury 123 est née à Bogotá d'une passion simple : l'émeraude colombienne, l'une des pierres les plus appréciées au monde, mérite d'être choisie avec le même soin que celui mis à l'extraire de la terre.", pt:"A Sweet Luxury 123 nasceu em Bogotá de uma paixão simples: a esmeralda colombiana, uma das pedras mais apreciadas do mundo, merece ser escolhida com o mesmo cuidado com que é extraída da terra." },
-    about_story_p2: { es:"Durante estos tres años hemos revisado piedra por piedra, aprendiendo a distinguir color, cristal y tratamiento con el mismo criterio que exigimos para nuestra propia colección. Ese hábito de mirar de cerca cada esmeralda es lo que hoy define a Sweet Luxury 123.", en:"Over these three years we've reviewed stone by stone, learning to tell apart color, crystal and treatment with the same standards we demand for our own collection. That habit of looking closely at every emerald is what defines Sweet Luxury 123 today.", fr:"Au cours de ces trois années, nous avons examiné pierre par pierre, apprenant à distinguer couleur, cristal et traitement avec la même exigence que celle que nous demandons pour notre propre collection. Cette habitude d'observer de près chaque émeraude est ce qui définit aujourd'hui Sweet Luxury 123.", pt:"Durante estes três anos revisamos pedra por pedra, aprendendo a distinguir cor, cristal e tratamento com o mesmo critério que exigimos para nossa própria coleção. Esse hábito de olhar de perto cada esmeralda é o que hoje define a Sweet Luxury 123." },
+    about_story_p1: { es:"Sweet Luxury nació en Bogotá de una pasión simple: la esmeralda colombiana, una de las piedras más apreciadas del mundo, merece ser elegida con el mismo cuidado con el que se extrae de la tierra.", en:"Sweet Luxury was born in Bogotá from a simple passion: the Colombian emerald, one of the world's most prized stones, deserves to be chosen with the same care with which it's drawn from the earth.", fr:"Sweet Luxury est née à Bogotá d'une passion simple : l'émeraude colombienne, l'une des pierres les plus appréciées au monde, mérite d'être choisie avec le même soin que celui mis à l'extraire de la terre.", pt:"A Sweet Luxury nasceu em Bogotá de uma paixão simples: a esmeralda colombiana, uma das pedras mais apreciadas do mundo, merece ser escolhida com o mesmo cuidado com que é extraída da terra." },
+    about_story_p2: { es:"Durante estos tres años hemos revisado piedra por piedra, aprendiendo a distinguir color, cristal y tratamiento con el mismo criterio que exigimos para nuestra propia colección. Ese hábito de mirar de cerca cada esmeralda es lo que hoy define a Sweet Luxury.", en:"Over these three years we've reviewed stone by stone, learning to tell apart color, crystal and treatment with the same standards we demand for our own collection. That habit of looking closely at every emerald is what defines Sweet Luxury today.", fr:"Au cours de ces trois années, nous avons examiné pierre par pierre, apprenant à distinguer couleur, cristal et traitement avec la même exigence que celle que nous demandons pour notre propre collection. Cette habitude d'observer de près chaque émeraude est ce qui définit aujourd'hui Sweet Luxury.", pt:"Durante estes três anos revisamos pedra por pedra, aprendendo a distinguir cor, cristal e tratamento com o mesmo critério que exigimos para nossa própria coleção. Esse hábito de olhar de perto cada esmeralda é o que hoje define a Sweet Luxury." },
     about_story_p3: { es:"Hoy trabajamos con clientes que buscan desde su primera esmeralda hasta piezas exclusivas para joyería fina, siempre con la misma promesa: transparencia sobre el origen y el tratamiento de cada piedra.", en:"Today we work with clients looking for everything from their first emerald to exclusive pieces for fine jewelry, always with the same promise: transparency about the origin and treatment of every stone.", fr:"Aujourd'hui, nous travaillons avec des clients qui recherchent aussi bien leur première émeraude que des pièces exclusives pour la joaillerie fine, toujours avec la même promesse : la transparence sur l'origine et le traitement de chaque pierre.", pt:"Hoje trabalhamos com clientes que buscam desde sua primeira esmeralda até peças exclusivas para joalheria fina, sempre com a mesma promessa: transparência sobre a origem e o tratamento de cada pedra." },
 
     origin_eyebrow: { es:"Origen", en:"Origin", fr:"Origine", pt:"Origem" },
@@ -244,7 +244,7 @@
     card4_p2: { es:"Atención con cita previa por WhatsApp.", en:"By appointment only, via WhatsApp.", fr:"Sur rendez-vous, via WhatsApp.", pt:"Atendimento com hora marcada pelo WhatsApp." },
     card5_h: { es:"Pagos y envíos", en:"Payments and shipping", fr:"Paiements et livraison", pt:"Pagamentos e envios" },
     card5_p: { es:"Aceptamos transferencia bancaria, Nequi, Daviplata y efectivo. Hacemos envíos nacionales e internacionales; te confirmamos costo y tiempo por WhatsApp.", en:"We accept bank transfer, Nequi, Daviplata and cash. We ship nationally and internationally; we'll confirm cost and time via WhatsApp.", fr:"Nous acceptons le virement bancaire, Nequi, Daviplata et les espèces. Nous livrons à l'échelle nationale et internationale ; nous confirmons le coût et le délai par WhatsApp.", pt:"Aceitamos transferência bancária, Nequi, Daviplata e dinheiro. Fazemos envios nacionais e internacionais; confirmamos custo e prazo pelo WhatsApp." },
-    map_title: { es:"Ubicación Sweet Luxury 123 - Edificio Henry Faux P.H., Bogotá", en:"Sweet Luxury 123 location - Edificio Henry Faux P.H., Bogotá", fr:"Emplacement Sweet Luxury 123 - Edificio Henry Faux P.H., Bogotá", pt:"Localização Sweet Luxury 123 - Edificio Henry Faux P.H., Bogotá" }
+    map_title: { es:"Ubicación Sweet Luxury - Edificio Henry Faux P.H., Bogotá", en:"Sweet Luxury location - Edificio Henry Faux P.H., Bogotá", fr:"Emplacement Sweet Luxury - Edificio Henry Faux P.H., Bogotá", pt:"Localização Sweet Luxury - Edificio Henry Faux P.H., Bogotá" }
   };
 
   /* ---------- Palabras sueltas (piezas, niveles, origen, tratamientos) ---------- */
@@ -311,28 +311,28 @@
 
   var PAGE_META = {
     index: {
-      es:{ title:"Sweet Luxury 123 | Esmeraldas colombianas", desc:"Esmeraldas colombianas elegidas una a una. Piedras desde niveles esenciales hasta exclusivas, con origen verificado y joyería a la medida." },
-      en:{ title:"Sweet Luxury 123 | Colombian Emeralds", desc:"Colombian emeralds chosen one by one. Stones from entry-level to exclusive, with verified origin and custom-made jewelry." },
-      fr:{ title:"Sweet Luxury 123 | Émeraudes colombiennes", desc:"Émeraudes colombiennes choisies une à une. Pierres du niveau essentiel au niveau exclusif, avec origine vérifiée et bijouterie sur mesure." },
-      pt:{ title:"Sweet Luxury 123 | Esmeraldas colombianas", desc:"Esmeraldas colombianas escolhidas uma a uma. Pedras de níveis essenciais a exclusivas, com origem verificada e joalheria sob medida." }
+      es:{ title:"Sweet Luxury | Esmeraldas colombianas", desc:"Esmeraldas colombianas elegidas una a una. Piedras desde niveles esenciales hasta exclusivas, con origen verificado y joyería a la medida." },
+      en:{ title:"Sweet Luxury | Colombian Emeralds", desc:"Colombian emeralds chosen one by one. Stones from entry-level to exclusive, with verified origin and custom-made jewelry." },
+      fr:{ title:"Sweet Luxury | Émeraudes colombiennes", desc:"Émeraudes colombiennes choisies une à une. Pierres du niveau essentiel au niveau exclusif, avec origine vérifiée et bijouterie sur mesure." },
+      pt:{ title:"Sweet Luxury | Esmeraldas colombianas", desc:"Esmeraldas colombianas escolhidas uma a uma. Pedras de níveis essenciais a exclusivas, com origem verificada e joalheria sob medida." }
     },
     colecciones: {
-      es:{ title:"Colecciones | Sweet Luxury 123", desc:"Colecciones Esencial, Selecta y Exclusiva de esmeraldas colombianas. Filtra por nivel, precio, quilates y origen." },
-      en:{ title:"Collections | Sweet Luxury 123", desc:"Essential, Select and Exclusive collections of Colombian emeralds. Filter by level, price, carats and origin." },
-      fr:{ title:"Collections | Sweet Luxury 123", desc:"Collections Essentiel, Sélecte et Exclusive d'émeraudes colombiennes. Filtrez par niveau, prix, carats et origine." },
-      pt:{ title:"Coleções | Sweet Luxury 123", desc:"Coleções Essencial, Seleta e Exclusiva de esmeraldas colombianas. Filtre por nível, preço, quilates e origem." }
+      es:{ title:"Colecciones | Sweet Luxury", desc:"Colecciones Esencial, Selecta y Exclusiva de esmeraldas colombianas. Filtra por nivel, precio, quilates y origen." },
+      en:{ title:"Collections | Sweet Luxury", desc:"Essential, Select and Exclusive collections of Colombian emeralds. Filter by level, price, carats and origin." },
+      fr:{ title:"Collections | Sweet Luxury", desc:"Collections Essentiel, Sélecte et Exclusive d'émeraudes colombiennes. Filtrez par niveau, prix, carats et origine." },
+      pt:{ title:"Coleções | Sweet Luxury", desc:"Coleções Essencial, Seleta e Exclusiva de esmeraldas colombianas. Filtre por nível, preço, quilates e origem." }
     },
     nosotros: {
-      es:{ title:"Nosotros | Sweet Luxury 123", desc:"La historia de Sweet Luxury 123: 3 años seleccionando esmeraldas colombianas con transparencia y asesoría cercana." },
-      en:{ title:"About | Sweet Luxury 123", desc:"The Sweet Luxury 123 story: 3 years selecting Colombian emeralds with transparency and close guidance." },
-      fr:{ title:"À propos | Sweet Luxury 123", desc:"L'histoire de Sweet Luxury 123 : 3 ans à sélectionner des émeraudes colombiennes avec transparence et accompagnement personnalisé." },
-      pt:{ title:"Sobre nós | Sweet Luxury 123", desc:"A história da Sweet Luxury 123: 3 anos selecionando esmeraldas colombianas com transparência e assessoria próxima." }
+      es:{ title:"Nosotros | Sweet Luxury", desc:"La historia de Sweet Luxury: 3 años seleccionando esmeraldas colombianas con transparencia y asesoría cercana." },
+      en:{ title:"About | Sweet Luxury", desc:"The Sweet Luxury story: 3 years selecting Colombian emeralds with transparency and close guidance." },
+      fr:{ title:"À propos | Sweet Luxury", desc:"L'histoire de Sweet Luxury : 3 ans à sélectionner des émeraudes colombiennes avec transparence et accompagnement personnalisé." },
+      pt:{ title:"Sobre nós | Sweet Luxury", desc:"A história da Sweet Luxury: 3 anos selecionando esmeraldas colombianas com transparência e assessoria próxima." }
     },
     contacto: {
-      es:{ title:"Contacto | Sweet Luxury 123", desc:"Contacta a Sweet Luxury 123 por WhatsApp o Instagram. Edificio Henry Faux P.H., Bogotá. Lunes a viernes, 10am - 7pm." },
-      en:{ title:"Contact | Sweet Luxury 123", desc:"Contact Sweet Luxury 123 via WhatsApp or Instagram. Edificio Henry Faux P.H., Bogotá. Monday to Friday, 10am - 7pm." },
-      fr:{ title:"Contact | Sweet Luxury 123", desc:"Contactez Sweet Luxury 123 par WhatsApp ou Instagram. Edificio Henry Faux P.H., Bogotá. Du lundi au vendredi, 10h - 19h." },
-      pt:{ title:"Contato | Sweet Luxury 123", desc:"Contate a Sweet Luxury 123 pelo WhatsApp ou Instagram. Edificio Henry Faux P.H., Bogotá. Segunda a sexta, 10h - 19h." }
+      es:{ title:"Contacto | Sweet Luxury", desc:"Contacta a Sweet Luxury por WhatsApp o Instagram. Edificio Henry Faux P.H., Bogotá. Lunes a viernes, 10am - 7pm." },
+      en:{ title:"Contact | Sweet Luxury", desc:"Contact Sweet Luxury via WhatsApp or Instagram. Edificio Henry Faux P.H., Bogotá. Monday to Friday, 10am - 7pm." },
+      fr:{ title:"Contact | Sweet Luxury", desc:"Contactez Sweet Luxury par WhatsApp ou Instagram. Edificio Henry Faux P.H., Bogotá. Du lundi au vendredi, 10h - 19h." },
+      pt:{ title:"Contato | Sweet Luxury", desc:"Contate a Sweet Luxury pelo WhatsApp ou Instagram. Edificio Henry Faux P.H., Bogotá. Segunda a sexta, 10h - 19h." }
     }
   };
 
