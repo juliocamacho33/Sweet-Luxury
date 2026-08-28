@@ -66,7 +66,7 @@
     trust1_h: { es:"Origen colombiano", en:"Colombian origin", fr:"Origine colombienne", pt:"Origem colombiana" },
     trust1_p: { es:"Esmeraldas provenientes de minas colombianas, seleccionadas pieza por pieza.", en:"Emeralds from Colombian mines, selected piece by piece.", fr:"Émeraudes provenant de mines colombiennes, sélectionnées pièce par pièce.", pt:"Esmeraldas provenientes de minas colombianas, selecionadas peça por peça." },
     trust2_h: { es:"Transparencia total", en:"Full transparency", fr:"Transparence totale", pt:"Transparência total" },
-    trust2_p: { es:"Quilates, medidas y tratamiento de cada piedra, sin letra pequeña.", en:"Carats, measurements and treatment of every stone, no fine print.", fr:"Carats, dimensions et traitement de chaque pierre, sans petites lignes.", pt:"Quilates, medidas e tratamento de cada pedra, sem letras miúdas." },
+    trust2_p: { es:"Quilates, medidas y tratamiento de cada piedra, sin letra pequeña.", en:"Carats, measurements and treatment of every stone, no fine print.", fr:"Carats, dimensions et traitement de chaque pierre, sans mentions en petits caractères.", pt:"Quilates, medidas e tratamento de cada pedra, sem letras miúdas." },
     trust3_p: { es:"Diseñamos y montamos la pieza en oro o plata según tu idea.", en:"We design and set the piece in gold or silver, based on your idea.", fr:"Nous créons et montons la pièce en or ou en argent selon votre idée.", pt:"Desenhamos e montamos a peça em ouro ou prata conforme sua ideia." },
 
     why_eyebrow: { es:"Por qué Sweet Luxury", en:"Why Sweet Luxury", fr:"Pourquoi Sweet Luxury", pt:"Por que Sweet Luxury" },
@@ -74,7 +74,7 @@
     why1_h: { es:"Selección personal de cada piedra", en:"Personal selection of every stone", fr:"Sélection personnelle de chaque pierre", pt:"Seleção pessoal de cada pedra" },
     why1_p: { es:"Cada esmeralda pasa por una revisión individual de color, cristal y proporción antes de ofrecerse.", en:"Every emerald goes through an individual review of color, crystal and proportion before it's offered.", fr:"Chaque émeraude fait l'objet d'un examen individuel de couleur, de cristal et de proportion avant d'être proposée.", pt:"Cada esmeralda passa por uma revisão individual de cor, cristal e proporção antes de ser oferecida." },
     why2_h: { es:"Niveles claros", en:"Clear tiers", fr:"Niveaux clairs", pt:"Níveis claros" },
-    why2_p: { es:"Colecciones Esencial, Selecta y Exclusiva para distintos presupuestos y ocasiones, sin perder calidad.", en:"Essential, Select and Exclusive collections for different budgets and occasions, without losing quality.", fr:"Collections Essentiel, Sélecte et Exclusive pour différents budgets et occasions, sans compromis sur la qualité.", pt:"Coleções Essencial, Seleta e Exclusiva para diferentes orçamentos e ocasiões, sem perder qualidade." },
+    why2_p: { es:"Colecciones Esencial, Selecta y Exclusiva para distintos presupuestos y ocasiones, sin perder calidad.", en:"Essential, Select and Exclusive collections for different budgets and occasions, without losing quality.", fr:"Collections Essentiel, Sélect et Exclusive pour différents budgets et occasions, sans compromis sur la qualité.", pt:"Coleções Essencial, Seleta e Exclusiva para diferentes orçamentos e ocasiões, sem perder qualidade." },
     why3_h: { es:"Información honesta", en:"Honest information", fr:"Information honnête", pt:"Informação honesta" },
     why3_p: { es:"Se indica siempre el tratamiento de cada piedra: Sin tratamiento, ACEITE o PERMA.", en:"The treatment of every stone is always disclosed: No treatment, OIL or PERMA.", fr:"Le traitement de chaque pierre est toujours indiqué : Sans traitement, HUILE ou PERMA.", pt:"O tratamento de cada pedra é sempre indicado: Sem tratamento, ÓLEO ou PERMA." },
     why4_h: { es:"Acompañamiento cercano", en:"Close support", fr:"Accompagnement personnalisé", pt:"Acompanhamento próximo" },
@@ -98,7 +98,7 @@
     step2_p: { es:"Evaluamos color, cristal y proporción de cada esmeralda de forma individual, antes de considerarla parte de la colección.", en:"We evaluate the color, crystal and proportion of every emerald individually, before it becomes part of the collection.", fr:"Nous évaluons individuellement la couleur, le cristal et la proportion de chaque émeraude, avant de l'intégrer à la collection.", pt:"Avaliamos cor, cristal e proporção de cada esmeralda de forma individual, antes de considerá-la parte da coleção." },
     step3_num: { es:"03 · Transparencia", en:"03 · Transparency", fr:"03 · Transparence", pt:"03 · Transparência" },
     step3_h: { es:"Se documenta todo", en:"Everything is documented", fr:"Tout est documenté", pt:"Tudo é documentado" },
-    step3_p: { es:"Quilates, medidas y tratamiento —Sin tratamiento, ACEITE o PERMA— quedan indicados con claridad, sin letra pequeña.", en:"Carats, measurements and treatment —No treatment, OIL or PERMA— are clearly stated, no fine print.", fr:"Carats, dimensions et traitement —Sans traitement, HUILE ou PERMA— sont indiqués clairement, sans petites lignes.", pt:"Quilates, medidas e tratamento —Sem tratamento, ÓLEO ou PERMA— são indicados com clareza, sem letras miúdas." },
+    step3_p: { es:"Quilates, medidas y tratamiento —Sin tratamiento, ACEITE o PERMA— quedan indicados con claridad, sin letra pequeña.", en:"Carats, measurements and treatment —No treatment, OIL or PERMA— are clearly stated, no fine print.", fr:"Carats, dimensions et traitement —Sans traitement, HUILE ou PERMA— sont indiqués clairement, sans mentions en petits caractères.", pt:"Quilates, medidas e tratamento —Sem tratamento, ÓLEO ou PERMA— são indicados com clareza, sem letras miúdas." },
     step4_num: { es:"04 · A tus manos", en:"04 · In your hands", fr:"04 · Entre vos mains", pt:"04 · Em suas mãos" },
     step4_h: { es:"Asesoría y, si quieres, montaje", en:"Guidance and, if you like, setting", fr:"Conseils et, si vous le souhaitez, montage", pt:"Assessoria e, se quiser, montagem" },
     step4_p: { es:"Te acompañamos por WhatsApp para elegir la piedra correcta y, si lo deseas, la montamos en oro o plata a tu medida.", en:"We'll guide you on WhatsApp to choose the right stone and, if you'd like, set it in gold or silver to your measurements.", fr:"Nous vous accompagnons par WhatsApp pour choisir la bonne pierre et, si vous le souhaitez, la monter en or ou en argent à votre mesure.", pt:"Acompanhamos você pelo WhatsApp para escolher a pedra certa e, se quiser, montamos em ouro ou prata sob medida." },
@@ -114,7 +114,7 @@
     vm6: { es:"Envíos nacionales e internacionales", en:"Domestic and international shipping", fr:"Livraisons nationales et internationales", pt:"Envios nacionais e internacionais" },
 
     /* ---------- colecciones.html ---------- */
-    coll_h1: { es:"Esencial, Selecta y Exclusiva", en:"Essential, Select and Exclusive", fr:"Essentiel, Sélecte et Exclusive", pt:"Essencial, Seleta e Exclusiva" },
+    coll_h1: { es:"Esencial, Selecta y Exclusiva", en:"Essential, Select and Exclusive", fr:"Essentiel, Sélect et Exclusive", pt:"Essencial, Seleta e Exclusiva" },
     coll_desc: { es:"Cada piedra indica quilates, medidas, origen y tratamiento. Filtra por nivel, precio o quilates para encontrar la esmeralda correcta.", en:"Every stone lists carats, measurements, origin and treatment. Filter by level, price or carats to find the right emerald.", fr:"Chaque pierre indique carats, dimensions, origine et traitement. Filtrez par niveau, prix ou carats pour trouver la bonne émeraude.", pt:"Cada pedra indica quilates, medidas, origem e tratamento. Filtre por nível, preço ou quilates para encontrar a esmeralda certa." },
 
     lvl1_p: { es:"Piedras de entrada, ideales para primera compra o piezas sencillas.", en:"Entry-level stones, ideal for a first purchase or simple pieces.", fr:"Pierres d'entrée de gamme, idéales pour un premier achat ou des pièces simples.", pt:"Pedras de entrada, ideais para primeira compra ou peças simples." },
@@ -211,9 +211,9 @@
     before_buy_eyebrow: { es:"Antes de comprar", en:"Before you buy", fr:"Avant d'acheter", pt:"Antes de comprar" },
     before_buy_h2: { es:"Pagos, envíos y certificación", en:"Payments, shipping and certification", fr:"Paiements, livraison et certification", pt:"Pagamentos, envios e certificação" },
     policy1_h: { es:"Métodos de pago", en:"Payment methods", fr:"Moyens de paiement", pt:"Métodos de pagamento" },
-    policy1_p: { es:"Transferencia o consignación bancaria, Nequi, Daviplata, o efectivo en nuestro punto físico con cita previa.", en:"Bank transfer or deposit, Nequi, Daviplata, or cash at our physical location by appointment.", fr:"Virement ou dépôt bancaire, Nequi, Daviplata, ou espèces à notre point de vente sur rendez-vous.", pt:"Transferência ou depósito bancário, Nequi, Daviplata, ou dinheiro em nosso ponto físico com hora marcada." },
+    policy1_p: { es:"Transferencia o consignación bancaria, Nequi, Daviplata o efectivo en nuestro punto físico con cita previa.", en:"Bank transfer or deposit, Nequi, Daviplata, or cash at our physical location by appointment.", fr:"Virement ou dépôt bancaire, Nequi, Daviplata ou espèces à notre point de vente sur rendez-vous.", pt:"Transferência ou depósito bancário, Nequi, Daviplata ou dinheiro em nosso ponto físico com hora marcada." },
     policy2_h: { es:"Envíos", en:"Shipping", fr:"Livraison", pt:"Envios" },
-    policy2_p: { es:"Hacemos envíos a nivel nacional e internacional. Costo y tiempo de entrega se confirman por WhatsApp según tu ciudad o país.", en:"We ship nationally and internationally. Cost and delivery time are confirmed via WhatsApp based on your city or country.", fr:"Nous livrons à l'échelle nationale et internationale. Le coût et le délai de livraison sont confirmés par WhatsApp selon votre ville ou pays.", pt:"Fazemos envios nacionais e internacionais. Custo e prazo de entrega são confirmados pelo WhatsApp conforme sua cidade ou país." },
+    policy2_p: { es:"Hacemos envíos nacionales e internacionales. Costo y tiempo de entrega se confirman por WhatsApp según tu ciudad o país.", en:"We ship nationally and internationally. Cost and delivery time are confirmed via WhatsApp based on your city or country.", fr:"Nous livrons à l'échelle nationale et internationale. Le coût et le délai de livraison sont confirmés par WhatsApp selon votre ville ou pays.", pt:"Fazemos envios nacionais e internacionais. Custo e prazo de entrega são confirmados pelo WhatsApp conforme sua cidade ou país." },
     policy3_h: { es:"Certificación", en:"Certification", fr:"Certification", pt:"Certificação" },
     policy3_p: { es:"Si necesitas certificado gemológico, lo tramitamos bajo pedido con un costo adicional a cargo del comprador.", en:"If you need a gemological certificate, we arrange it on request at an additional cost to the buyer.", fr:"Si vous avez besoin d'un certificat gemmologique, nous nous en occupons sur demande, avec un coût supplémentaire à la charge de l'acheteur.", pt:"Se você precisar de certificado gemológico, providenciamos sob encomenda com custo adicional a cargo do comprador." },
     policy4_h: { es:"Piezas únicas, venta final", en:"One-of-a-kind pieces, final sale", fr:"Pièces uniques, vente définitive", pt:"Peças únicas, venda final" },
@@ -255,7 +255,7 @@
     "lágrimas":  { en:"teardrops", fr:"larmes", pt:"lágrimas" },
     /* niveles */
     "Esencial":   { en:"Essential", fr:"Essentiel", pt:"Essencial" },
-    "Selecta":    { en:"Select",    fr:"Sélecte",   pt:"Seleta" },
+    "Selecta":    { en:"Select",    fr:"Sélect",   pt:"Seleta" },
     "Exclusiva":  { en:"Exclusive", fr:"Exclusive", pt:"Exclusiva" },
     /* origen */
     "Brasil":     { en:"Brazil",  fr:"Brésil",  pt:"Brasil" }
@@ -312,7 +312,7 @@
     colecciones: {
       es:{ title:"Colecciones | Sweet Luxury", desc:"Colecciones Esencial, Selecta y Exclusiva de esmeraldas colombianas. Filtra por nivel, precio, quilates y origen." },
       en:{ title:"Collections | Sweet Luxury", desc:"Essential, Select and Exclusive collections of Colombian emeralds. Filter by level, price, carats and origin." },
-      fr:{ title:"Collections | Sweet Luxury", desc:"Collections Essentiel, Sélecte et Exclusive d'émeraudes colombiennes. Filtrez par niveau, prix, carats et origine." },
+      fr:{ title:"Collections | Sweet Luxury", desc:"Collections Essentiel, Sélect et Exclusive d'émeraudes colombiennes. Filtrez par niveau, prix, carats et origine." },
       pt:{ title:"Coleções | Sweet Luxury", desc:"Coleções Essencial, Seleta e Exclusiva de esmeraldas colombianas. Filtre por nível, preço, quilates e origem." }
     },
     nosotros: {
