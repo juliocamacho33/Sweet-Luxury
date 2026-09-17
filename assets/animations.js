@@ -33,6 +33,16 @@
     update();
   }
 
+  /* ---------- Video del hero: reproducir a velocidad reducida ---------- */
+  function initHeroVideoRate() {
+    var video = document.querySelector('.hero-video');
+    if (!video) return;
+    video.playbackRate = 0.5;
+    video.addEventListener('loadedmetadata', function () {
+      video.playbackRate = 0.5;
+    });
+  }
+
   /* ---------- Header: sombra al hacer scroll ---------- */
   function initHeaderScroll() {
     var header = document.querySelector('.site-header');
@@ -217,6 +227,7 @@
   function init() {
     initScrollProgress();
     initHeaderScroll();
+    initHeroVideoRate();
 
     applyStagger(document, '.trust-item', 90, 6);
     applyStagger(document, '.why-item', 90, 6);
